@@ -1,7 +1,19 @@
 <?xml version="1.0"?>
 <DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DetectorDescription/Schema/DDLSchema.xsd">
+    
+<!-- 
+== CMS Forward Pixels Geometry ==
 
-<MaterialSection label="pixfwdmaterial.xml">
+ @version 2.01.01 Dec 06, 2005
+ @created Sunanda Banjeree
+ @modified Dmitry Onoprienko
+
+== COMPONENT DEFINED BY THIS FILE: ==
+
+  Materials required by PixelForward geometry
+-->
+
+<MaterialSection label="PixelForwardMaterial.xml">
   <CompositeMaterial name="Pix_Fwd_WireBond" density="2.0725*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.84318456">
       <rMaterial name="materials:Silicon"/>
@@ -16,6 +28,7 @@
       <rMaterial name="materials:Oxygen"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_Bump" density="2.0725*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.84318456">
       <rMaterial name="materials:Silicon"/>
@@ -30,6 +43,7 @@
       <rMaterial name="materials:Oxygen"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_AgEpoxy" density="2.0725*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.84318456">
       <rMaterial name="materials:Silicon"/>
@@ -44,6 +58,7 @@
       <rMaterial name="materials:Oxygen"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_AdhFilm" density="2.0725*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.84318456">
       <rMaterial name="materials:Silicon"/>
@@ -58,6 +73,7 @@
       <rMaterial name="materials:Oxygen"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_VHDI" density="1.3736*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.10963061">
       <rMaterial name="materials:Copper"/>
@@ -75,6 +91,7 @@
       <rMaterial name="materials:Oxygen"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_ROChip" density="2.17525*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.84842968">
       <rMaterial name="materials:Silicon"/>
@@ -92,6 +109,7 @@
       <rMaterial name="materials:Indium"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_Bypass" density="0.48033*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.0045934611">
       <rMaterial name="materials:Hydrogen"/>
@@ -115,6 +133,7 @@
       <rMaterial name="materials:Argon"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_Cool" density="2.02365*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.0054166079">
       <rMaterial name="materials:Hydrogen"/>
@@ -132,6 +151,7 @@
       <rMaterial name="materials:Aluminium"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_HDI" density="1.3736*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.10963061">
       <rMaterial name="materials:Copper"/>
@@ -149,6 +169,7 @@
       <rMaterial name="materials:Oxygen"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_Oring" density="0.518314*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.99831361">
       <rMaterial name="materials:Beryllium"/>
@@ -166,6 +187,7 @@
       <rMaterial name="materials:Hydrogen"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_PortCard" density="0.249329*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.058449712">
       <rMaterial name="materials:Silicon"/>
@@ -198,6 +220,7 @@
       <rMaterial name="materials:Argon"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_Ring" density="1*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.99831361">
       <rMaterial name="materials:Beryllium"/>
@@ -215,6 +238,7 @@
       <rMaterial name="materials:Hydrogen"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_Services_1" density="0.0827294*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.31418568">
       <rMaterial name="materials:Carbon"/>
@@ -238,6 +262,7 @@
       <rMaterial name="materials:Argon"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_Services_2" density="0.123297*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.24746171">
       <rMaterial name="materials:Carbon"/>
@@ -261,6 +286,7 @@
       <rMaterial name="materials:Argon"/>
     </MaterialFraction>
   </CompositeMaterial>
+
   <CompositeMaterial name="Pix_Fwd_Services_3" density="0.148596*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.34987925">
       <rMaterial name="materials:Carbon"/>
@@ -284,6 +310,7 @@
       <rMaterial name="materials:Argon"/>
     </MaterialFraction>
   </CompositeMaterial>
+  
   <CompositeMaterial name="Pix_Fwd_Strut" density="1.35061*g/cm3" symbol=" " method="mixture by weight">
     <MaterialFraction fraction="0.99955057">
       <rMaterial name="materials:Aluminium"/>
@@ -299,6 +326,15 @@
     </MaterialFraction>
     <MaterialFraction fraction="3.5954204e-07">
       <rMaterial name="materials:Hydrogen"/>
+    </MaterialFraction>
+  </CompositeMaterial>
+  
+  <CompositeMaterial name="PixelForwardCoolant" density="1.68*g/cm3" symbol=" " method="compound by atomic proportion">
+    <MaterialFraction fraction="0.3">
+      <rMaterial name="materials:Carbon"/>
+    </MaterialFraction>
+    <MaterialFraction fraction="0.7">
+      <rMaterial name="materials:Fluorine"/>
     </MaterialFraction>
   </CompositeMaterial>
 </MaterialSection>
