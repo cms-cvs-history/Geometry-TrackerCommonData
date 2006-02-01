@@ -43,6 +43,12 @@
   <Translation x="[zero]"                    y="[tibstringpar:ICCCoolY]"
                z="[tibstringpar:ICCCoolZ]" />
  </PosPart>
+ <PosPart copyNumber="2">
+   <rParent name="tibstringss:TIBICCBoxSS"/>
+   <rChild name="tibstringpar:TIBICCCool2"/>
+  <Translation x="[zero]"                    y="[tibstringpar:ICCCoolY]"
+               z="-[tibstringpar:ICCCoolZ]" />
+ </PosPart>
 </PosPartSection>
  
 </DDDefinition>
