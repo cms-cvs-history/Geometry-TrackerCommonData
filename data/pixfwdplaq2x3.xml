@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
-<DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DetectorDescription/Schema/DDLSchema.xsd">
+<DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DDLSchema/DDLSchema.xsd">
 
 <!-- 
+
 == CMS Forward Pixels Geometry ==
 
- @version 2.01.01 Dec 06, 2005
+ @version 2.02.01 Jan 25, 2006
  @created Victoria Martin
  @modified Dmitry Onoprienko
 
@@ -15,6 +16,7 @@
  
  Possitioning this volume:
  XDisp and YDisp are coordinates of the sensor active center in the PixelForwardPlaquette2x3 root frame.
+
 -->
 
 <ConstantsSection label="Input" eval="true">
@@ -36,30 +38,16 @@
 </ConstantsSection>
  
 <SolidSection label="pixfwdplaq2x3.xml">
- 
- <Box name="PixelForwardPlaquette2x3"      dx="[PlaquetteL]/2"
-      dy="[PlaquetteW]/2"                dz="[pixfwdplaq:PlaquetteT]/2"/>
-
- <Box name="PixelForwardSensor2x3"         dx="[SensorL]/2"
-      dy="[SensorW]/2"                   dz="[pixfwdplaq:SensorT]/2"/>
- <Box name="PixelForwardActive2x3"         dx="[ActiveL]/2"
-      dy="[ActiveW]/2"                   dz="[pixfwdplaq:SensorT]/2"/>
- <Box name="PixelForwardBump2x3"           dx="[BumpL]/2"
-      dy="[BumpW]/2"                   dz="[pixfwdplaq:BumpT]/2"/>
- <Box name="PixelForwardAgEpoxy2x3"        dx="[SensorL]/2"
-      dy="[SensorW]/2"                   dz="[pixfwdplaq:AgEpoxyT]/2"/>
- 
- <Box name="PixelForwardVHDI2x3"           dx="[PlaquetteL]/2"
-      dy="[PlaquetteW]/2"                dz="[pixfwdplaq:VHDIT]/2"/>
- <Box name="PixelForwardAdhFilm2x3"        dx="[PlaquetteL]/2"
-      dy="[PlaquetteW]/2"                dz="[pixfwdplaq:AdhFilmT]/2"/>
- <Box name="PixelForwardBacking2x3"        dx="[PlaquetteL]/2"
-      dy="[PlaquetteW]/2"                dz="[pixfwdplaq:BackingT]/2"/>
- <Box name="PixelForwardChoTherm2x3"       dx="[PlaquetteL]/2"
-      dy="[PlaquetteW]/2"                dz="[pixfwdplaq:ChoThermT]/2"/>
-
+ <Box name="PixelForwardPlaquette2x3" dx="[PlaquetteL]/2" dy="[PlaquetteW]/2" dz="[pixfwdplaq:PlaquetteT]/2"/>
+ <Box name="PixelForwardSensor2x3" dx="[SensorL]/2" dy="[SensorW]/2" dz="[pixfwdplaq:SensorT]/2"/>
+ <Box name="PixelForwardActive2x3" dx="[ActiveW]/2" dy="[ActiveL]/2" dz="[pixfwdplaq:SensorT]/2"/>
+ <Box name="PixelForwardBump2x3" dx="[BumpL]/2" dy="[BumpW]/2" dz="[pixfwdplaq:BumpT]/2"/>
+ <Box name="PixelForwardAgEpoxy2x3" dx="[SensorL]/2" dy="[SensorW]/2" dz="[pixfwdplaq:AgEpoxyT]/2"/>
+ <Box name="PixelForwardVHDI2x3" dx="[PlaquetteL]/2" dy="[PlaquetteW]/2" dz="[pixfwdplaq:VHDIT]/2"/>
+ <Box name="PixelForwardAdhFilm2x3" dx="[PlaquetteL]/2" dy="[PlaquetteW]/2" dz="[pixfwdplaq:AdhFilmT]/2"/>
+ <Box name="PixelForwardBacking2x3" dx="[PlaquetteL]/2" dy="[PlaquetteW]/2" dz="[pixfwdplaq:BackingT]/2"/>
+ <Box name="PixelForwardChoTherm2x3" dx="[PlaquetteL]/2" dy="[PlaquetteW]/2" dz="[pixfwdplaq:ChoThermT]/2"/>
  <Box name="PixelForwardROChip2x3" dx="[pixfwdplaq:ROChipL]*(3./2.)" dy="[pixfwdplaq:ROChipW]" dz="[pixfwdplaq:ROChipT]/2."/>
-
 </SolidSection>
  
 <LogicalPartSection label="pixfwdplaq2x3.xml">
@@ -109,6 +97,7 @@
  <PosPart copyNumber="1">
    <rParent name="pixfwdplaq2x3:PixelForwardSensor2x3"/>
    <rChild name="pixfwdplaq2x3:PixelForwardActive2x3"/>
+   <rRotation name="pixfwdplaq:Z90"/>
  </PosPart>
  <PosPart copyNumber="1">
    <rParent name="pixfwdplaq2x3:PixelForwardPlaquette2x3"/>

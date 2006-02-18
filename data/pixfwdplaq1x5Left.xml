@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
-<DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DetectorDescription/Schema/DDLSchema.xsd">
+<DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DDLSchema/DDLSchema.xsd">
 
 <!-- 
+
 == CMS Forward Pixels Geometry ==
 
- @version 2.01.01 Dec 06, 2005
+ @version 2.02.01 Jan 25, 2006
  @created Victoria Martin
  @modified Dmitry Onoprienko
 
@@ -15,6 +16,7 @@
   Possitioning this volume:
   XDisp and YDisp are coordinates of the sensor active center in the PixelForwardPlaquette1x5Left root frame.
   The volume has to be rotated by 180 degrees around Z before positioning.
+
 -->
 
 <ConstantsSection label="Input" eval="true">
@@ -43,8 +45,8 @@
 
  <Box name="PixelForwardSensor1x5Left"         dx="[SensorL]/2"
       dy="[SensorW]/2"                   dz="[pixfwdplaq:SensorT]/2"/>
- <Box name="PixelForwardActive1x5Left"         dx="[ActiveL]/2"
-      dy="[ActiveW]/2"                   dz="[pixfwdplaq:SensorT]/2"/>
+ <Box name="PixelForwardActive1x5Left"         dx="[ActiveW]/2"
+      dy="[ActiveL]/2"                   dz="[pixfwdplaq:SensorT]/2"/>
  <Box name="PixelForwardBump1x5Left"           dx="[BumpL]/2"
       dy="[BumpW]/2"                     dz="[pixfwdplaq:BumpT]/2"/>
  <Box name="PixelForwardAgEpoxy1x5Left"        dx="[SensorL]/2"
@@ -110,6 +112,7 @@
  <PosPart copyNumber="1">
    <rParent name="PixelForwardSensor1x5Left"/>
    <rChild name="PixelForwardActive1x5Left"/>
+   <rRotation name="pixfwdplaq:Z90"/>
  </PosPart>
  <PosPart copyNumber="1">
    <rParent name="PixelForwardPlaquette1x5Left"/>
