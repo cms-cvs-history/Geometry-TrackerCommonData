@@ -1,13 +1,16 @@
 <?xml version="1.0"?>
 <Configuration xmlns="." xmlns:xsi="." xsi:schemaLocation= "." name="CMSConfiguration" version="0">
- <Include name="test">
-  <File name="Geometry/CMSCommonData/data/materials.xml"              url="."/>
+ <Include>
+  <File name="Geometry/CMSCommonData/data/materials.xml"            url="."/>
+  <File name="Geometry/CMSCommonData/data/rotations.xml"            url="."/>
+  <File name="Geometry/CMSCommonData/data/totem_rotations.xml"      url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdMaterials.xml"    url="."/>
-  <File name="Geometry/TrackerCommonData/data/pixfwdTest.xml"         url="."/>
+  <File name="Geometry/TrackerCommonData/data/pixfwdCommon.xml"       url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwd.xml"             url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdCylinder.xml"     url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdDisk.xml"         url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdBlade.xml"        url="."/>
+  <File name="Geometry/TrackerCommonData/data/pixfwdNipple.xml"       url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdPanel.xml"        url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdPanelBase.xml"    url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdplaq.xml"         url="."/>
@@ -18,6 +21,8 @@
   <File name="Geometry/TrackerCommonData/data/pixfwdplaq1x5Right.xml" url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdplaq1x2Left.xml"  url="."/>
   <File name="Geometry/TrackerCommonData/data/pixfwdplaq1x2Right.xml" url="."/>
+  <File name="Geometry/TrackerCommonData/data/pixfwdTest.xml"             url="."/>
  </Include>
- <Root fileName="pixfwdTest.xml"  logicalPartName="TestRoot"/>
+ <Root fileName="pixfwdTest.xml" logicalPartName="TestRoot"/>
 </Configuration>
+

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DDLSchema/DDLSchema.xsd">
+<DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DetectorDescription/Schema/DDLSchema.xsd">
 
 <!-- 
 
 == CMS Forward Pixels Geometry ==
 
- @version 2.02.01 Jan 25, 2006
+ @version 3.01.01 May 08, 2006
  @created Sunanda Banjeree
 
 == COMPONENT DEFINED BY THIS FILE: ==
@@ -14,34 +14,32 @@
 
 -->
 
-<ConstantsSection label="pixfwdplaq.xml" eval="true">
- <Constant name="SensorT"           value="0.300*mm"/>
- <Constant name="BumpT"             value="0.025*mm"/>
- <Constant name="ROChipL"           value="8.005*mm"/>
- <Constant name="ROChipT"           value="0.300*mm"/>
- <Constant name="ROChipW"           value="9.935*mm"/>
- <Constant name="AgEpoxyT"          value="0.175*mm"/>
- <Constant name="VHDIT"             value="0.125*mm"/>
- <Constant name="AdhFilmT"          value="0.050*mm"/>
- <Constant name="BackingT"          value="0.300*mm"/>
- <Constant name="ChoThermT"         value="0.175*mm"/>
- <Constant name="PlaquetteT"        value="[SensorT]+[BumpT]+
-           [ROChipT]+[AgEpoxyT]+[VHDIT]+[AdhFilmT]+[BackingT]+[ChoThermT]"/>
- <Constant name="SensorZ"           value="([PlaquetteT]-[SensorT])/2"/>
- <Constant name="BumpZ"             value="[SensorZ]-([SensorT]+
-                                           [BumpT])/2"/>
- <Constant name="ROChipZ"           value="[BumpZ]-([BumpT]+
-                                           [ROChipT])/2"/>
- <Constant name="AgEpoxyZ"          value="[ROChipZ]-([ROChipT]+
-                                           [AgEpoxyT])/2"/>
- <Constant name="VHDIZ"             value="[AgEpoxyZ]-([AgEpoxyT]+
-                                           [VHDIT])/2"/>
- <Constant name="AdhFilmZ"          value="[VHDIZ]-([VHDIT]+
-                                           [AdhFilmT])/2"/>
- <Constant name="BackingZ"          value="[AdhFilmZ]-([AdhFilmT]+
-                                           [BackingT])/2"/>
- <Constant name="ChoThermZ"         value="[BackingZ]-([BackingT]+
-                                           [ChoThermT])/2"/>
+<ConstantsSection label="PlaquetteCommon" eval="true">
+
+ <Constant name="SensorT"    value="0.270*mm"/>
+ <Constant name="BumpT"      value="0.025*mm"/>
+ <Constant name="ROChipT"    value="0.200*mm"/>
+ <Constant name="AgEpoxyT"   value="0.178*mm"/>
+
+ <Constant name="VHDIT"      value="0.125*mm"/>
+ <Constant name="AdhFilmT"   value="0.051*mm"/>
+ <Constant name="BackingT"   value="0.300*mm"/>
+ <Constant name="ChoThermT"  value="0.178*mm"/>
+
+ <Constant name="PlaquetteT" value="[SensorT]+[BumpT]+[ROChipT]+[AgEpoxyT]+[VHDIT]+[AdhFilmT]+[BackingT]+[ChoThermT]"/>
+           
+ <Constant name="ROChipL"  value="8.005*mm"/>
+ <Constant name="ROChipW"  value="9.935*mm"/>
+
+ <Constant name="SensorZ"   value="([PlaquetteT]-[SensorT])/2"/>
+ <Constant name="BumpZ"     value="[SensorZ]-([SensorT]+[BumpT])/2"/>
+ <Constant name="ROChipZ"   value="[BumpZ]-([BumpT]+[ROChipT])/2"/>
+ <Constant name="AgEpoxyZ"  value="[ROChipZ]-([ROChipT]+[AgEpoxyT])/2"/>
+ <Constant name="VHDIZ"     value="[AgEpoxyZ]-([AgEpoxyT]+[VHDIT])/2"/>
+ <Constant name="AdhFilmZ"  value="[VHDIZ]-([VHDIT]+[AdhFilmT])/2"/>
+ <Constant name="BackingZ"  value="[AdhFilmZ]-([AdhFilmT]+[BackingT])/2"/>
+ <Constant name="ChoThermZ" value="[BackingZ]-([BackingT]+[ChoThermT])/2"/>
+
 </ConstantsSection>
 
 
@@ -49,6 +47,9 @@
   <Rotation name="Z90"  phiX="90.*deg"    thetaX="90.*deg" 
                         phiY= "180.*deg"  thetaY="90.*deg" 
                         phiZ=  "0.*deg"   thetaZ= "0.*deg" />
+  <Rotation name="Z270"  phiX="-90.*deg"    thetaX="90.*deg" 
+                         phiY=  "0.*deg"    thetaY="90.*deg" 
+                         phiZ=  "0.*deg"    thetaZ= "0.*deg" />
 </RotationSection>
 
 </DDDefinition>

@@ -1,21 +1,38 @@
 <?xml version="1.0"?>
-<DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DDLSchema/DDLSchema.xsd">
+<DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../DetectorDescription/Schema/DDLSchema.xsd">
 
 <!-- 
 
 == CMS Forward Pixels Geometry ==
 
- @version 2.02.01 Jan 25, 2006
+ @version 3.01.01 May 08, 2006
  @created Victoria Martin
  @modified Dmitry Onoprienko
 
-== COMPONENT DEFINED BY THIS FILE: ==
+== Subsystem or component described by the file ==
 
-  2x4 Plaquette.
- (Goes on "right" panels. The version for "left" panels is obtained by rotating by 180 degrees around Z.)
- 
- Possitioning this volume:
- XDisp and YDisp are coordinates of the sensor active center in the PixelForwardPlaquette2x4 root frame.
+2x4 Plaquette.
+
+== Root volume and its reference frame ==
+
+Root volume : PixelForwardPlaquette2x4
+
+Y is in the plane of the plaquette, will be parallel to the panel axis once the plaquette is mounted
+Z is perpendicular to the plaquette, pointing to the sensor side
+
+== Positioning ==
+
+The file defines AnchorX and AnchorY constants that 
+correspond to the anchor point (aka active center) coordinates in the plaquette
+root volume.
+<p>
+This plaquette should be positioned unrotated into right panels, rotated by
+180 degrees into left panels.
+
+== Additional comments ==
+
+The volume representing the active part of the sensor is placed with 90 degrees 
+rotation around Z axis to make its local reference frame Y go along the longer side.
 
 -->
 
@@ -33,8 +50,8 @@
 </ConstantsSection>
  
 <ConstantsSection label="Common" eval="true">
- <Constant name="XDisp"             value="[PlaquetteL]/2.-[ActiveLCentre]"/>
- <Constant name="YDisp"             value="0.*mm"/>
+ <Constant name="AnchorX"             value="[PlaquetteL]/2.-[ActiveLCentre]"/>
+ <Constant name="AnchorY"             value="0.*mm"/>
 </ConstantsSection>
  
 <SolidSection label="pixfwdplaq2x4.xml">
@@ -116,17 +133,17 @@
  <PosPart copyNumber="1">
    <rParent name="pixfwdplaq2x4:PixelForwardPlaquette2x4"/>
    <rChild name="pixfwdplaq2x4:PixelForwardSensor2x4"/>
-  <Translation x="[XDisp]" y="[YDisp]" z="[pixfwdplaq:SensorZ]" />
+  <Translation x="[AnchorX]" y="[AnchorY]" z="[pixfwdplaq:SensorZ]" />
  </PosPart>
  <PosPart copyNumber="1">
    <rParent name="pixfwdplaq2x4:PixelForwardPlaquette2x4"/>
    <rChild name="pixfwdplaq2x4:PixelForwardBump2x4"/>
-  <Translation x="[XDisp]" y="[YDisp]" z="[pixfwdplaq:BumpZ]" />
+  <Translation x="[AnchorX]" y="[AnchorY]" z="[pixfwdplaq:BumpZ]" />
  </PosPart>
  <PosPart copyNumber="1">
    <rParent name="pixfwdplaq2x4:PixelForwardPlaquette2x4"/>
    <rChild name="pixfwdplaq2x4:PixelForwardAgEpoxy2x4"/>
-  <Translation x="[XDisp]" y="[YDisp]" z="[pixfwdplaq:AgEpoxyZ]" />
+  <Translation x="[AnchorX]" y="[AnchorY]" z="[pixfwdplaq:AgEpoxyZ]" />
  </PosPart>
  <PosPart copyNumber="1">
    <rParent name="pixfwdplaq2x4:PixelForwardPlaquette2x4"/>
@@ -151,7 +168,7 @@
  <PosPart copyNumber="1">
    <rParent name="pixfwdplaq2x4:PixelForwardPlaquette2x4"/>
    <rChild name="PixelForwardROChip2x4"/>
-  <Translation x="[XDisp]" y="[YDisp]" z="[pixfwdplaq:ROChipZ]" />
+  <Translation x="[AnchorX]" y="[AnchorY]" z="[pixfwdplaq:ROChipZ]" />
  </PosPart>
 </PosPartSection>
    
