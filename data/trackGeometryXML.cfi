@@ -1,0 +1,8 @@
+es_source = XMLIdealGeometryESSource {
+	vstring geomXMLFiles = {
+		"Geometry/CMSCommonData/data/materials.xml",
+		"Geometry/TrackerCommonData/data/trackermaterial.xml",
+		"Geometry/TrackerCommonData/data/trackerother.xml"
+	}
+	string rootNodeName = "trackerother:Tracker"
+}

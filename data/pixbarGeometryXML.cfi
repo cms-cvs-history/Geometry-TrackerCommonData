@@ -1,0 +1,16 @@
+es_source = XMLIdealGeometryESSource {
+	vstring geomXMLFiles = {
+		"Geometry/CMSCommonData/data/materials.xml",
+		"Geometry/TrackerCommonData/data/pixbarmaterial.xml",
+		"Geometry/TrackerCommonData/data/pixbarladder.xml",
+		"Geometry/TrackerCommonData/data/pixbarladderfull.xml",
+		"Geometry/TrackerCommonData/data/pixbarladderhalf.xml",
+		"Geometry/TrackerCommonData/data/pixbarlayer.xml",
+		"Geometry/TrackerCommonData/data/pixbarlayer0.xml",
+		"Geometry/TrackerCommonData/data/pixbarlayer1.xml",
+		"Geometry/TrackerCommonData/data/pixbarlayer2.xml",
+		"Geometry/TrackerCommonData/data/pixbar.xml",
+		"Geometry/TrackerCommonData/data/trackerpixbar.xml"
+	}
+	string rootNodeName = "trackerpixbar:Tracker"
+}
