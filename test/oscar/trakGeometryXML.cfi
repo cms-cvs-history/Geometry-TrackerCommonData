@@ -1,0 +1,13 @@
+es_source = XMLIdealGeometryESSource {
+	vstring geomXMLFiles = {
+		"Geometry/TrackerCommonData/test/oscar/materials.xml",
+		"Geometry/TrackerCommonData/test/oscar/rotations.xml",
+		"Geometry/TrackerCommonData/test/oscar/trak.xml",
+		"Geometry/TrackerCommonData/test/oscar/pixel.xml"
+		"Geometry/TrackerCommonData/test/oscar/tib.xml"
+		"Geometry/TrackerCommonData/test/oscar/tid.xml"
+		"Geometry/TrackerCommonData/test/oscar/tob.xml"
+		"Geometry/TrackerCommonData/test/oscar/tec.xml"
+	}
+	string rootNodeName = "trak:TRAK"
+}
