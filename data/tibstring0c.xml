@@ -6,6 +6,12 @@
  <Constant name="StringUpMinL" value="69.60*cm"/>
  <Constant name="StringLoPlsL" value="[tibstringpar:StringL]-[StringLoMinL]"/>
  <Constant name="StringUpPlsL" value="[tibstringpar:StringL]-[StringUpMinL]"/>
+ <Constant name="WaferZLoOffset" value="-[tibmodpar:WaferZ]"/>  <!-- Offset due to WaferZ for INT strings -->
+ <Constant name="WaferZUpOffset" value="+[tibmodpar:WaferZ]"/>  <!-- Offset due to WaferZ for EXT strings -->
+ <Constant name="ICCLoOffset" value="-[tibmodpar:ModuleDz]-[tibstringpar:ICCBoxL]/2"/>  
+ <!-- Offset of ICC Box for INT strings -->
+ <Constant name="ICCUpOffset" value="+[tibmodpar:ModuleDz]+[tibstringpar:ICCBoxL]/2"/>  
+ <!-- Offset of ICC Box for EXT strings -->
 </ConstantsSection>
  
 </DDDefinition>
