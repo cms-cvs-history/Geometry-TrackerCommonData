@@ -165,5 +165,5 @@ es_source = XMLIdealGeometryESSource {
 		"Geometry/TrackerCommonData/data/trackermaterial.xml",
 		"Geometry/TrackerCommonData/data/tracker.xml"
 	}
-	string rootNodeName = "cms:Tracker"
+	string rootNodeName = "cms:CMSE"
 }
