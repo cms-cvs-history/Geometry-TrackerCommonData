@@ -29,7 +29,9 @@ es_source = XMLIdealGeometryESSource {
 		"Geometry/TrackerCommonData/data/tobrod5h.xml",
 		"Geometry/TrackerCommonData/data/tobrod5.xml",
 		"Geometry/TrackerCommonData/data/tob.xml",
-		"Geometry/TrackerCommonData/data/trackertob.xml"
+		"Geometry/TrackerCommonData/data/trackertob.xml",
+		"Geometry/TrackerCommonData/data/tracker.xml",
+		"Geometry/TrackerCommonData/data/cms.xml"
 	}
-	string rootNodeName = "trackertob:Tracker"
+	string rootNodeName = "cms:CMSE"
 }
