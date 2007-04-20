@@ -50,7 +50,9 @@ es_source = XMLIdealGeometryESSource {
 		"Geometry/TrackerCommonData/data/tecwheelc.xml",
 		"Geometry/TrackerCommonData/data/tecwheeld.xml",
 		"Geometry/TrackerCommonData/data/tec.xml",
-		"Geometry/TrackerCommonData/data/trackertec.xml"
+		"Geometry/TrackerCommonData/data/trackertec.xml",
+		"Geometry/TrackerCommonData/data/tracker.xml",
+		"Geometry/TrackerCommonData/data/cms.xml"
 	}
-	string rootNodeName = "trackertec:Tracker"
+	string rootNodeName = "cms:CMSE"
 }

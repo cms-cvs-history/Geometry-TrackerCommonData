@@ -133,6 +133,7 @@ void DDTECModuleAlgo::initialize(const DDNumericArguments & nArgs,
 		      << bridgeMat << " Width " << bridgeWidth 
 		      << " Thickness " << bridgeThick << " Height " 
 		      << bridgeHeight << " Separation "<< bridgeSep;
+  tol = 0.1*mm;
 }
 
 void DDTECModuleAlgo::execute() {
@@ -182,13 +183,13 @@ void DDTECModuleAlgo::execute() {
   }
   h1 = 0.5 * topFrameThick;
   dz = 0.5 * topFrameHeight;
-  solid = DDSolidFactory::trap(DDName(name,idNameSpace), dz, 0, 0, h1, bl1, 
-			       bl1, 0, h1, bl2, bl2, 0);
+  solid = DDSolidFactory::trap(DDName(name,idNameSpace), dz, 0, 0, h1, 
+			       bl1-tol, bl1-tol, 0, h1, bl2-tol, bl2-tol, 0);
   LogDebug("TECGeom") << "DDTECModuleAlgo test:\t" << solid.name() 
 		      << " Trap made of " << matname << " of dimensions " 
-		      << dz << ", 0, 0, " << h1 << ", " << bl1 << ", "  
-		      << bl1 << ", 0, " << h1 << ", " << bl2 << ", " << bl2
-		      << ", 0";
+		      << dz << ", 0, 0, " << h1 << ", " << bl1-tol << ", "  
+		      << bl1-tol << ", 0, " << h1 << ", " << bl2-tol << ", " 
+		      << bl2-tol << ", 0";
   DDLogicalPart topFrame(solid.ddname(), matter, solid);
 
   //Frame Sides
@@ -204,13 +205,13 @@ void DDTECModuleAlgo::execute() {
   }
   h1 = 0.5 * sideFrameThick;
   dz = 0.5 * fullHeight;
-  solid = DDSolidFactory::trap(DDName(name,idNameSpace), dz, 0, 0, h1, bl1, 
-			       bl1, 0, h1, bl2, bl2, 0);
+  solid = DDSolidFactory::trap(DDName(name,idNameSpace), dz, 0, 0, h1, 
+			       bl1-tol, bl1-tol, 0, h1, bl2-tol, bl2-tol, 0);
   LogDebug("TECGeom") << "DDTECModuleAlgo test:\t" << solid.name() 
 		      << " Trap made of " << matname << " of dimensions "
-		      << dz << ", 0, 0, " << h1 << ", " << bl1 << ", "
-		      << bl1 << ", 0, " << h1 << ", " << bl2 << ", " << bl2
-		      << ", 0";
+		      << dz << ", 0, 0, " << h1 << ", " << bl1-tol << ", "
+		      << bl1-tol << ", 0, " << h1 << ", " << bl2-tol << ", " 
+		      << bl2-tol << ", 0";
   DDLogicalPart sideFrame(solid.ddname(), matter, solid);
 
   name    = idName + "Frame";

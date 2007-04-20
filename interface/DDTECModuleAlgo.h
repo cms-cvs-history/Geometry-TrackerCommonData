@@ -64,6 +64,7 @@ private:
   double                   bridgeThick;    //              thickness
   double                   bridgeHeight;   //              height
   double                   bridgeSep;      //              separation
+  double                   tol;            // Tolerance
 };
 
 #endif

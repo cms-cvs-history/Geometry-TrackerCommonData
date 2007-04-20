@@ -10,7 +10,9 @@ es_source = XMLIdealGeometryESSource {
 		"Geometry/TrackerCommonData/data/pixbarlayer1.xml",
 		"Geometry/TrackerCommonData/data/pixbarlayer2.xml",
 		"Geometry/TrackerCommonData/data/pixbar.xml",
-		"Geometry/TrackerCommonData/data/trackerpixbar.xml"
+		"Geometry/TrackerCommonData/data/trackerpixbar.xml",
+		"Geometry/TrackerCommonData/data/tracker.xml",
+		"Geometry/TrackerCommonData/data/cms.xml"
 	}
-	string rootNodeName = "trackerpixbar:Tracker"
+	string rootNodeName = "cms:CMSE"
 }
