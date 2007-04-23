@@ -74,8 +74,10 @@
  <Constant name="GlueSi2Y"   value="0.015*cm"/>
  <Constant name="GluePAY"    value="0.340*cm"/>
  <Constant name="GluePAZ"    value="7.435*cm"/>
- <Constant name="PAX"        value="0"/>
+ <Constant name="PAX"        value="[WaferDy]*sin([Tilt])"/>
  <Constant name="GluePAX"    value="[WaferDy]*sin([Tilt])"/>
+ <Constant name="PAYst"      value="0.260*cm"/>
+ <Constant name="GluePAYst"  value="0.390*cm"/>
 </ConstantsSection>
 
 <SolidSection label="tobmodpar.xml">
@@ -94,6 +96,7 @@
 			  phi="0*deg"    theta="[PA2Theta]" />
  <Box name="TOBEncapsulant1" dx="[GlueDx1]"   dy="[GlueDy]"    dz="[GlueDz]"/>
  <Box name="TOBEncapsulant2" dx="[GlueDx2]"   dy="[GlueDy]"    dz="[GlueDz]"/>
+ <Box name="TOBEncapsulant3" dx="[GlueDx1]"   dy="[GlueDy]*2"  dz="[GlueDz]/2"/>
  <Box name="TOBSideRailL" dx="[SideRailDx]" 
                           dy="[SideRailDy]" dz="[SideRailDz]"/>
  <Box name="TOBSideRailR" dx="[SideRailDx]" 
@@ -125,6 +128,10 @@
  </LogicalPart>
  <LogicalPart name="TOBPAEncaps" category="unspecified">
   <rSolid name="TOBEncapsulant1"/>
+  <rMaterial name="tobmaterial:TOB_Sens_Interface"/>
+ </LogicalPart>
+ <LogicalPart name="TOBPAEncapsSt" category="unspecified">
+  <rSolid name="TOBEncapsulant3"/>
   <rMaterial name="tobmaterial:TOB_Sens_Interface"/>
  </LogicalPart>
  <LogicalPart name="TOBSideRailL" category="unspecified">
