@@ -6,6 +6,7 @@
 #include "Geometry/TrackerCommonData/interface/DDTECCoolAlgo.h"
 #include "Geometry/TrackerCommonData/interface/DDTECModuleAlgo.h"
 #include "Geometry/TrackerCommonData/interface/DDTECOptoHybAlgo.h"
+#include "Geometry/TrackerCommonData/interface/DDTECPhiAlgo.h"
 #include "Geometry/TrackerCommonData/interface/DDTECPhiAltAlgo.h"
 #include "Geometry/TrackerCommonData/interface/DDTIBLayerAlgo.h"
 #include "Geometry/TrackerCommonData/interface/DDTIBRadCableAlgo.h"
@@ -32,6 +33,7 @@ DEFINE_SEAL_PLUGIN (DDAlgorithmFactory, DDTECCoolAlgo,       "track:DDTECCoolAlg
 DEFINE_SEAL_PLUGIN (DDAlgorithmFactory, DDTECModuleAlgo,     "track:DDTECModuleAlgo");
 DEFINE_SEAL_PLUGIN (DDAlgorithmFactory, DDTECOptoHybAlgo,    "track:DDTECOptoHybAlgo");
 DEFINE_SEAL_PLUGIN (DDAlgorithmFactory, DDTECPhiAltAlgo,     "track:DDTECPhiAltAlgo");
+DEFINE_SEAL_PLUGIN (DDAlgorithmFactory, DDTECPhiAlgo,        "track:DDTECPhiAlgo");
 DEFINE_SEAL_PLUGIN (DDAlgorithmFactory, DDTIBLayerAlgo,      "track:DDTIBLayerAlgo");
 DEFINE_SEAL_PLUGIN (DDAlgorithmFactory, DDTIBRadCableAlgo,   "track:DDTIBRadCableAlgo");
 DEFINE_SEAL_PLUGIN (DDAlgorithmFactory, DDTIDAxialCableAlgo, "track:DDTIDAxialCableAlgo");
