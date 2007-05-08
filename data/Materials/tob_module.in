@@ -631,8 +631,8 @@ o TOB Electronics ICC1/2
 Inter Connect Cards
 	ICC1 - serves 1 APV (smaller)
 	ICC2 - serves 2 APVs (bigger)
-ICC1: MCVolume: (11.800 x 4.400 x 0.250) cm^3 = 12.98 cm^3
-ICC2: MCVolume: (11.800 x 6.800 x 0.250) cm^3 = 20.06 cm^3
+ICC1: MCVolume: (11.800 x 4.400 x 0.500) cm^3 = 25.96 cm^3
+ICC2: MCVolume: (11.800 x 6.800 x 0.500) cm^3 = 40.12 cm^3
 Data taken from G.Magazzù measurements: http://test-gmagazzu.web.cern.ch/test%2Dgmagazzu/TOB/MB/ICCs_MB.htm
 
 
@@ -708,7 +708,7 @@ EDMS Code EP 680-1174-200-C
 * 11 "Hybrid Tail Copper"       "Copper"           0.055   2     ELE
 * 12 "Hybrid Tail Solder Mask"  "T_Kapton"         0.011   2     ELE
 * 13 "Hybrid Tail Glue"         "Epoxy"            0.057   2     ELE
-* 14 "HV pin (module)"          "Brass"            0.011   2     ELE
+* 14 "HV pin (module)"          "TOB_Brass"        0.011   2     ELE
 .......................................................................
 =======================================================================
 
@@ -781,7 +781,7 @@ EDMS Code EP 680-1174-210-D
 * 11 "Hybrid Tail Copper"       "Copper"           0.055   4     ELE
 * 12 "Hybrid Tail Solder Mask"  "T_Kapton"         0.011   4     ELE
 * 13 "Hybrid Tail Glue"         "Epoxy"            0.057   4     ELE
-* 14 "HV pin (module)"          "Brass"            0.011   4     ELE
+* 14 "HV pin (module)"          "TOB_Brass"        0.011   4     ELE
 .......................................................................
 =======================================================================
 
@@ -814,7 +814,7 @@ MCVolume: ( 11.8 x 4.4 x 0.25 ) cm^3 = 12.98 cm^3
 		--> volume = 0.0722 cm^3
 	resin:  m = 1 x (0.0882 + 0.1085) g + NULL x { 1 x (0.1445 + 0.1547) g } + 1 x (0.1768 + 0.2013) g + 1 x (0.2329 + 0.2764) g = 1.0841 g
 		density (epoxy) = 1.3 g/cm^3
-		--> volume = 0.834 cm^3
+		--> volume = 1.019 cm^3
 
 (5) HV stiffener
 	FR4:    m = 0.060 g
@@ -853,7 +853,7 @@ MCVolume: ( 11.8 x 4.4 x 0.25 ) cm^3 = 12.98 cm^3
 		m = 0.04 g per module
 	ICB side:
 		http://test-gmagazzu.web.cern.ch/test%2Dgmagazzu/TOB/MB/ICB_MB.htm
-		m = 0.330 g (6 HV wires) --> 0.330 g / 6 = 0.055 g per module
+		m = 0.330 g (6 HV wires) --> 0.330 g / 6 = 0.055 per module
 	HV pin (brass CuZn36Pb3 Sn plated):
 		m = ( 0.04 + 0.055 ) g = 0.095 g
 		density (brass) = 8.5 g/cm^3
@@ -864,7 +864,7 @@ MCVolume: ( 11.8 x 4.4 x 0.25 ) cm^3 = 12.98 cm^3
 * 1 "PCB board"                 "T_G10"            3.028   1     ELE
 * 2 "PCB copper traces"         "Copper"           0.144   1     ELE	 
 * 3 "NAiS connectors"           "Copper"           0.0722  1     ELE
-* 4 "NAiS connectors"           "Epoxy"            0.834   1     ELE
+* 4 "NAiS connectors"           "Epoxy"            1.019   1     ELE
 * 5 "HV Stiffener"              "T_G10"            0.032   1     CAB
 * 6 "ICC Resistors"             "Ceramic"          0.019   1     ELE
 * 7 "ICC Capacitors"            "Barium_Titanate"  0.170   1     ELE
@@ -874,7 +874,7 @@ MCVolume: ( 11.8 x 4.4 x 0.25 ) cm^3 = 12.98 cm^3
 * 11 "Hybrid Tail Copper"       "Copper"           0.055   1     ELE
 * 12 "Hybrid Tail Solder Mask"  "T_Kapton"         0.011   1     ELE
 * 13 "Hybrid Tail Glue"         "Epoxy"            0.057   1     ELE
-* 14 "HV pin (module)"          "Brass"            0.011   1     ELE
+* 14 "HV pin (module)"          "TOB_Brass"        0.011   1     ELE
 .......................................................................
 =======================================================================
 
@@ -964,7 +964,7 @@ MCVolume: ( 11.8 x 6.8 x 0.25 ) cm^3 = 20.06 cm^3
 * 11 "Hybrid Tail Copper"       "Copper"           0.055   2     ELE
 * 12 "Hybrid Tail Solder Mask"  "T_Kapton"         0.011   2     ELE
 * 13 "Hybrid Tail Glue"         "Epoxy"            0.057   2     ELE
-* 14 "HV pin (module)"          "Brass"            0.011   2     ELE
+* 14 "HV pin (module)"          "TOB_Brass"        0.011   2     ELE
 .......................................................................
 =======================================================================
 
@@ -979,8 +979,8 @@ Same as Layer 3/4.
 # "TOB ICC Layer 5/6 (1 APV)"   "TOB_L56_ICC1"    12.98   51.92
 * 1 "PCB board"                 "T_G10"            3.028   1     ELE
 * 2 "PCB copper traces"         "Copper"           0.144   1     ELE	 
-* 3 "NAiS connectors"           "Copper"           0.0722  1     ELE
-* 4 "NAiS connectors"           "Epoxy"            0.834   1     ELE
+* 3 "NAiS connectors"           "Copper"           0.0926  1     ELE
+* 4 "NAiS connectors"           "Epoxy"            1.064   1     ELE
 * 5 "HV Stiffener"              "T_G10"            0.032   1     CAB
 * 6 "ICC Resistors"             "Ceramic"          0.019   1     ELE
 * 7 "ICC Capacitors"            "Barium_Titanate"  0.170   1     ELE
@@ -990,7 +990,7 @@ Same as Layer 3/4.
 * 11 "Hybrid Tail Copper"       "Copper"           0.055   1     ELE
 * 12 "Hybrid Tail Solder Mask"  "T_Kapton"         0.011   1     ELE
 * 13 "Hybrid Tail Glue"         "Epoxy"            0.057   1     ELE
-* 14 "HV pin (module)"          "Brass"            0.011   1     ELE
+* 14 "HV pin (module)"          "TOB_Brass"        0.011   1     ELE
 .......................................................................
 =======================================================================
 
@@ -1054,11 +1054,11 @@ MCVolume: ( 2.3 x 3.0 x 0.2 ) cm^3 = 1.38 cm^3
 	epoxy:	m = ( 1 x 0.027098 ) g = 0.027098 g
 		density = 1.3 g/cm^3
 		--> volume = 0.0208 cm^3
-	copper: m = [ ( 1 x 0.070 ) - 0.027098 ) ] g = 0.042902 g
+	copper: m = [ ( 1 x 0.070 ) - 0.027098 ) g = 0.042902 g
 		density = 8.96 g/cm^3
 		--> volume = 0.0048 cm^3
 
-(9-10) Laser
+(9-[10]) Laser
 	MISSING:m = xxx g
 		density = xxx g/cm^3
 		--> volume = xxx cm^3
@@ -1082,9 +1082,8 @@ MCVolume: ( 2.3 x 3.0 x 0.2 ) cm^3 = 1.38 cm^3
 * 6 "AOH Capacitors"            "Barium_Titanate"  0.0114  1     ELE
 * 7 "AOH ASICs EMC"             "Epoxy"            0.0208  1     ELE
 * 8 "AOH ASICs copper"          "Copper"           0.0048  1     ELE
-* 9 "Laser"                     "Air"              0.0000  1     ELE
-* 10 "Laser Cover"              "Ceramic"          0.0875  1     ELE
-* 11 "AOH 3D Label"             "T_Kapton"         0.0143  1     ELE
+* 9 "Laser Cover"               "Ceramic"          0.0875  1     ELE
+* 10 "AOH 3D Label"             "T_Kapton"         0.0143  1     ELE
 .......................................................................
 =======================================================================
 
@@ -1098,12 +1097,12 @@ MCVolume: (11.8 x 7.0 x 0.25) cm^3 = 20.65 cm^3
 
 	CCUM
 	-----
-(1) CCUM FR4 (G10) EDMS Code EDA-00036-V1
+(1) CCUM carbon fibre EDMS Code EDA-00036-V1
 	m = 13.190 g
 	density = 1.90 g/cm^3
 	--> volume = 6.942 cm^3
 
-(2) CCUM copper traces  EDMS Code EDA-00036-V1
+(2) CCUM copper traces  EDMS Code EDA-0036-V1
 	m = 2.787 g
 	density = 8.96 g/cm^3
 	--> volume = 0.311 cm^3
@@ -1222,8 +1221,8 @@ Different for different layers
 * 9 "BUS wires PEI"                        "Silicone_Gel"    0.144   1    CAB
 * 10 "BUS wires SILTEM"                    "Polyethylene"    2.365   1    CAB
 * 11 "SCLAC glue"                          "Epoxy"           0.202   1    SUP
-* 12 "Output cable Shield"                 "Aluminium"       0.089   1    CAB
-* 13 "Output cable Sleeve"                 "Polyethylene"    0.642   1    CAB
+* 12 "Output cable Shield"                 "Aluminium"       0.642   1    CAB
+* 13 "Output cable Sleeve"                 "Polyethylene"    0.064   1    CAB
 * 14 "Input and Output cable Tie"          "T_Kapton"        0.195   1    CAB
 * 15 "Input and Output cable Solder Paste" "BGA"             0.038   1    CAB
 * 16 "ICB,LVLAC,HVLAC glue"                "Epoxy"           0.181   1    SUP
@@ -1251,7 +1250,7 @@ Ladder Adapter Card
 Composition taken from G.Magazzù measurements: http://test-gmagazzu.web.cern.ch/test%2Dgmagazzu/TOB/MB/CCUM_MB.htm
 EDMS Code EP 680-1174-510
 
-(1) SCLAC FR4
+(1) SCLAC carbon fibre
 	m = 0.400 g
 	density = 1.90 g/cm^3
 	--> volume = 0.211 cm^3
@@ -1290,7 +1289,7 @@ Short tail (to be multiplied by 2, the difference 'long tail'-1x'short tail' wil
 	Shielded Twisted pair (112 mm), 4 pieces
 	+ Shielded Twisted pair (135 mm), 2 pieces
 	+ 1.0 mm^2 Copper wire, 4 pieces 112 mm
-	+ 0.5 mm^2 Copper wire, 1 piece 112 mm, 1 piece 147 mm, 1 piece 149 mm
+	+ 0.5 mm^2 Copper wire, 1 pieces 112 mm, 1 piece 147 mm, 1 piece 149 mm
 	+ 1.0 mm^2 Copper wire, 1 piece 290 mm, only 80 mm here, the rest outside the rod
 	total mass; 1 only copy in the mixture
 	Copper:	m = ( 0.1519 + 0.0915 + 3.8976 + 0.4928 + 0.6468 + 0.6556 + 80/290 x 2.5230 ) g = 6.6322 g
@@ -1319,9 +1318,9 @@ Short tail (to be multiplied by 2, the difference 'long tail'-1x'short tail' wil
 (12) Output cable shield Aluminium: 1/2 here, (1/2 outside)
 	m = 0.480 g / 2 = 0.240 g
 	density = 2.7 g/cm^3
-	volume = 0.089 cm^3
+	volume = 0.178 cm^3
 
-(13) Output cable sleeve (l=55 mm, ext diameter=9.5 mm, 1 piece) + (l=10 mm, ext diameter=3.0 mm, 4 pieces) Polyolefin (take polyethylene):
+(13) Output cable sleeve (l=55 cm, ext diameter=9.5 mm, 1 piece) + (l=10 mm, ext diameter=3.0 mm, 4 pieces) Polyolefin (take polyethylene):
 	total mass, 1/2 here, (1/2 outside)
 	m = ( 0.90 + 0.32 ) g / 2 = 0.61 g
 	density = 0.95 g/cm^3
@@ -1425,8 +1424,8 @@ Different for different layers
 * 9 "BUS wires PEI"                        "Silicone_Gel"    0.144   1    CAB
 * 10 "BUS wires SILTEM"                    "Polyethylene"    2.365   1    CAB
 * 11 "SCLAC glue"                          "Epoxy"           0.202   1    SUP
-* 12 "Output cable Shield"                 "Aluminium"       0.089   1    CAB
-* 13 "Output cable Sleeve"                 "Polyethylene"    0.642   1    CAB
+* 12 "Output cable Shield"                 "Aluminium"       0.642   1    CAB
+* 13 "Output cable Sleeve"                 "Polyethylene"    0.064   1    CAB
 * 14 "Input and Output cable Tie"          "T_Kapton"        0.195   1    CAB
 * 15 "Input and Output cable Solder Paste" "BGA"             0.038   1    CAB
 * 16 "ICB,LVLAC,HVLAC glue"                "Epoxy"           0.181   1    SUP
@@ -1499,8 +1498,8 @@ Different for different layers
 * 9 "BUS wires PEI"                        "Silicone_Gel"    0.144   1    CAB
 * 10 "BUS wires SILTEM"                    "Polyethylene"    2.365   1    CAB
 * 11 "SCLAC glue"                          "Epoxy"           0.202   1    SUP
-* 12 "Output cable Shield"                 "Aluminium"       0.089   1    CAB
-* 13 "Output cable Sleeve"                 "Polyethylene"    0.642   1    CAB
+* 12 "Output cable Shield"                 "Aluminium"       0.642   1    CAB
+* 13 "Output cable Sleeve"                 "Polyethylene"    0.064   1    CAB
 * 14 "Input and Output cable Tie"          "T_Kapton"        0.195   1    CAB
 * 15 "Input and Output cable Solder Paste" "BGA"             0.038   1    CAB
 * 16 "ICB,LVLAC,HVLAC glue"                "Epoxy"           0.181   1    SUP
