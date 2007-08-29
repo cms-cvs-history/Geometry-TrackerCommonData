@@ -91,57 +91,7 @@ Volumes per piece.
 ......................................................................
 ======================================================================
 
-o Ruggedized 12-fibers Ribbon 
-  ---------------------------
 
-20070710 GSguazzoni
-
-MCVolume: (4.3mm*2.0mm)*1m = 0.086000 cm^3
-
-Total Weight/m and fractional composition from direct measurement.
-Fractional composition of bare ribbon from data sheets.
-
-Nominal outer dimensions: 4.3mm*2.0mm
-(1) Plastic sheath (PE) ==> 4.95/0.95/100 = 0.051205 cm^3 
-(2) Aramide filler (=kevlar) ==> 1/1.44/100 = 0.006944 cm^3 
-(3) Ribbon matrix coating (Acrylate) ==> 0.004030 cm^3
-(4) 12x Core (quartz) 0<diam<9micron +
-    12x Cladding (quartz) 9<diam<125micron ==> 0.001476 cm^3
-(5) 12x Coating (acrylate) 125<diam<250micron ==> 0.004416 cm^3
-
-Volumes per centimeter.
-.....................................................................
-# "Ruggedized Ribbon"       "T_RuggRibbon"          8.6000E-2 -1.
-* 1 "Plastic Sheath"        "Polyethylene"          5.1205E-2  1  CAB
-* 2 "Filler"                "Kevlar"                0.6944E-2  1  CAB
-* 3 "Matrix coating"        "Acrylate"              0.4030E-2  1  CAB
-* 4 "12x Core+Cladding"     "Quartz"                0.1476E-2  1  CAB
-* 5 "12x Coating"           "Acrylate"              0.4416E-2  1  CAB
-......................................................................
-======================================================================
-
-o Ruggedized Ribbon 12x Female MU Connector
-  -----------------------------------------
-
-20070710 GSguazzoni
-
-MCVolume: (6.0*2.0*1.0) cm^3 = 12.0 cm^3
-
-Total Weight and fractional composition from direct measurement.
-MC Volume roughly external dimensions.
-
-(1) Plastic Case (Polyethylene) ==> 10/0.95 = 10.526 cm^3
-(2) Plastic 2D tag (Polyethylene) ==> 0.12/0.95 = 0.1263 cm^3
-(3) 2x Fixing Screws (Iron) ==> 0.2/7.87 = 0.0254 cm^3
-
-Volumes per piece.
-.....................................................................
-# "Ribbon 12x MU connector"   "T_Ribbon12xMUConn"     12.0     -1.
-* 1 "Plastic"               "Polyethylene"         10.5263     1  CAB
-* 2 "2D tags"               "Polyethylene"          0.1263     1  CAB
-* 3 "Screws"		    "Iron"		    0.0254     1  SUP
-......................................................................
-======================================================================
 
 o PLCC (CAB Control Cable)
   ------------------------
