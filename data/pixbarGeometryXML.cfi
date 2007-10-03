@@ -12,6 +12,7 @@ es_source = XMLIdealGeometryESSource {
 		"Geometry/TrackerCommonData/data/pixbar.xml",
 		"Geometry/TrackerCommonData/data/trackerpixbar.xml",
 		"Geometry/TrackerCommonData/data/tracker.xml",
+		"Geometry/CMSCommonData/data/normal/cmsextent.xml",
 		"Geometry/TrackerCommonData/data/cms.xml"
 	}
 	string rootNodeName = "cms:CMSE"
