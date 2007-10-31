@@ -2,6 +2,8 @@ es_source = XMLIdealGeometryESSource {
 	vstring geomXMLFiles = {
 		"Geometry/CMSCommonData/data/materials.xml",
 		"Geometry/TrackerCommonData/data/trackermaterial.xml",
+		"Geometry/TrackerCommonData/data/tecmaterial.xml",
+		"Geometry/TrackerCommonData/data/trackerbulkhead.xml",
 		"Geometry/TrackerCommonData/data/trackerother.xml",
 		"Geometry/TrackerCommonData/data/tracker.xml",
 		"Geometry/CMSCommonData/data/normal/cmsextent.xml",
