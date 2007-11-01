@@ -298,6 +298,8 @@ int main(int argc, char *argv[])
 			else if(name_constituent[i] == "T_Ribbon12xMUConn")	sprintf(buffer, "trackermaterial:%s", name_constituent[i].c_str());
 			else if(name_constituent[i] == "Optical_Fiber")	sprintf(buffer, "trackermaterial:%s", name_constituent[i].c_str());
 			else if(name_constituent[i] == "CAB_Al36")	sprintf(buffer, "trackermaterial:%s", name_constituent[i].c_str());
+			else if(name_constituent[i] == "CAB_Al48")	sprintf(buffer, "trackermaterial:%s", name_constituent[i].c_str());
+			else if(name_constituent[i] == "CAB_Al60")	sprintf(buffer, "trackermaterial:%s", name_constituent[i].c_str());
 			else sprintf(buffer, "materials:%s", name_constituent[i].c_str());
 			set_attribute(ref_material, "name", buffer);
 			// insert reference into material
