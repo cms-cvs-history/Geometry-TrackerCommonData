@@ -163,10 +163,10 @@
   <SolidSection label="pixbar.xml">
     <Polycone name="PixelBarrel" startPhi="0*deg" deltaPhi="360*deg">
       <ZSection z="-281.00*cm" rMin="[Rin1]" rMax="21.8*cm"/>
-      <ZSection z="-117.00*cm" rMin="[Rin1]" rMax="21.8*cm"/>
-      <ZSection z="-117.00*cm" rMin="[Rin1]" rMax="110.5*cm"/>
-      <ZSection z="117.00*cm" rMin="[Rin1]" rMax="110.5*cm"/>
-      <ZSection z="117.00*cm" rMin="[Rin1]" rMax="21.8*cm"/>
+      <ZSection z="-116.9*cm" rMin="[Rin1]" rMax="21.8*cm"/>
+      <ZSection z="-116.9*cm" rMin="[Rin1]" rMax="109.65*cm"/>
+      <ZSection z="116.9*cm" rMin="[Rin1]" rMax="109.65*cm"/>
+      <ZSection z="116.9*cm" rMin="[Rin1]" rMax="21.8*cm"/>
       <ZSection z="281.00*cm" rMin="[Rin1]" rMax="21.8*cm"/>
     </Polycone>
     <Tubs name="PixelBarrelSuppTub" rMin="[SupportRin]" rMax="[Rout1]" dz="[SupportL]/2" startPhi="0*deg" deltaPhi="360*deg"/>

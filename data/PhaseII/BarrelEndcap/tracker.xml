@@ -17439,7 +17439,7 @@
 </LogicalPart>
 </LogicalPartSection>
 <SolidSection label="tracker.xml">
-<Tubs name="Tracker" rMin="25*mm" rMax="1190*mm" dz="2910*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Tracker" rMin="25*mm" rMax="1200*mm" dz="2910*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Box name="BModule1Layer1" dx="48*mm" dy="23.13*mm" dz="1.4*mm"/>
 <Box name="BModule1Layer1INNERwafer" dx="48*mm" dy="23.13*mm" dz="0.1*mm"/>
 <Box name="BModule1Layer1OUTERwafer" dx="48*mm" dy="23.13*mm" dz="0.1*mm"/>
