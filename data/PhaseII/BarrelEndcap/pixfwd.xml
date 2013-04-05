@@ -24,6 +24,10 @@
 
 <SolidSection label="pixfwd.xml">
  <Polycone name="PixelForward" startPhi="0*deg" deltaPhi="360*deg" >
+   <ZSection z="0.00*cm" rMin="2.50*cm" rMax="17.0*cm"/>
+   <ZSection z="99.00*cm" rMin="2.50*cm" rMax="17.0*cm"/>
+   <ZSection z="99.00*cm" rMin="21.8*cm" rMax="110.0*cm"/>
+   <ZSection z="234.00*cm" rMin="21.8*cm" rMax="110.0*cm"/>
 <!--
  <ZSection z="[RootStartZ]"  rMin="[cms:TrackBeamR1]" rMax="[RootRadius]"/>
  <ZSection z="[RootMidZ1]"   rMin="[cms:TrackBeamR1]" rMax="[RootRadius]"/>
@@ -43,6 +47,7 @@
 <RZPoint r="[cms:TrackBeamR2]*mm" z="1015.34*mm"/>
 -->
 
+<!--
  <RZPoint r="[RootRadius]" z="[RootStartZ]"/>
  <RZPoint r="[RootRadius]" z="[RootEndZ]"/>
 <RZPoint r="[RootRadius]*mm" z="898.445*mm"/>
@@ -52,14 +57,17 @@
 <RZPoint r="292.005*mm" z="898.445*mm"/>
 <RZPoint r="[cms:TrackBeamR2]*mm" z="898.445*mm"/>
  <RZPoint r="[cms:TrackBeamR2]" z="[RootEndZ]"/>
+-->
 <!--
  <RZPoint r="[cms:TrackBeamR1]" z="[RootMidZ3]"/>
  <RZPoint r="[cms:TrackBeamR1]" z="[RootMidZ2]"/>
  <RZPoint r="[cms:TrackLumiR1]" z="[RootMidZ2]"/>
  <RZPoint r="[cms:TrackLumiR1]" z="[RootMidZ1]"/>
 -->
+<!--
  <RZPoint r="[cms:TrackBeamR1]" z="[RootMidZ1]"/>
  <RZPoint r="[cms:TrackBeamR1]" z="[RootStartZ]"/>
+-->
 
  </Polycone>
 </SolidSection>
