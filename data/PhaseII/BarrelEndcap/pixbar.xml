@@ -166,26 +166,21 @@
       <RZPoint r="[Rin2]" z="-[Zv1]"/>
       <RZPoint r="[Rin2]" z="-[ZvSupTubCab]"/>
       <RZPoint r="[RinSupTubCab]" z="-[ZvSupTubCab]"/>
-      <RZPoint r="[RinSupTubCab]" z="-[Zv4]"/>
       <RZPoint r="[Rout2]" z="-[Zv4]"/>
       <RZPoint r="[Rout2]" z="-[Zv3]"/>
       <RZPoint r="[Rout1]" z="-[Zv3]"/>
-      <RZPoint r="[Rout1]" z="0*mm"/>
       <RZPoint r="218*mm" z="0*mm"/>
       <RZPoint r="218*mm" z="-1170*mm"/>
       <RZPoint r="670*mm" z="-1170*mm"/>
-      <RZPoint r="670*mm" z="-1189.44*mm"/>
       <RZPoint r="1094.95*mm" z="-1189.44*mm"/>
+      
       <RZPoint r="1094.95*mm" z="1189.44*mm"/>
       <RZPoint r="670*mm" z="1189.44*mm"/>
       <RZPoint r="670*mm" z="1170*mm"/>
       <RZPoint r="218*mm" z="1170*mm"/>
-      <RZPoint r="218*mm" z="0*mm"/>
-      <RZPoint r="[Rout1]" z="0*mm"/>
       <RZPoint r="[Rout1]" z="[Zv3]"/>
       <RZPoint r="[Rout2]" z="[Zv3]"/>
       <RZPoint r="[Rout2]" z="[Zv4]"/>
-      <RZPoint r="[RinSupTubCab]" z="[Zv4]"/>
       <RZPoint r="[RinSupTubCab]" z="[ZvSupTubCab]"/>
       <RZPoint r="[Rin2]" z="[ZvSupTubCab]"/>
       <RZPoint r="[Rin2]" z="[Zv1]"/>
