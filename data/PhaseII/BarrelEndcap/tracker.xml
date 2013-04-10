@@ -18137,21 +18137,21 @@
 <Trd1 name="EModule1Disc8OUTERwafer" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule1Disc8INNERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule1Disc8OUTERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
-<Tubs name="Ring1Disc8" rMin="292.005*mm" rMax="337.721*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring2Disc8" rMin="323.555*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring3Disc8" rMin="369.831*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring4Disc8" rMin="398.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring5Disc8" rMin="444.902*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring6Disc8" rMin="470.096*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring7Disc8" rMin="517.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring8Disc8" rMin="540.997*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring9Disc8" rMin="589.421*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring10Disc8" rMin="662.314*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring11Disc8" rMin="765.966*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring12Disc8" rMin="831.898*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring13Disc8" rMin="936.374*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring14Disc8" rMin="995.55*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Disc8" rMin="292.005*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring1Disc8" rMin="288.033*mm" rMax="337.721*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring2Disc8" rMin="320.0*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring3Disc8" rMin="366.701*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring4Disc8" rMin="395.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring5Disc8" rMin="442.302*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring6Disc8" rMin="467.596*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring7Disc8" rMin="515.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring8Disc8" rMin="538.864*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring9Disc8" rMin="587.121*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring10Disc8" rMin="660.714*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring11Disc8" rMin="764.566*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring12Disc8" rMin="830.648*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring13Disc8" rMin="935.262*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring14Disc8" rMin="994.54*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Disc8" rMin="288.033*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Trd1 name="EModule14Disc9" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="1*mm"/>
 <Trd1 name="EModule14Disc9INNERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
 <Trd1 name="EModule14Disc9OUTERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
@@ -18222,21 +18222,21 @@
 <Trd1 name="EModule1Disc9OUTERwafer" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule1Disc9INNERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule1Disc9OUTERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
-<Tubs name="Ring1Disc9" rMin="292.005*mm" rMax="337.721*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring2Disc9" rMin="323.555*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring3Disc9" rMin="369.831*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring4Disc9" rMin="398.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring5Disc9" rMin="444.902*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring6Disc9" rMin="470.096*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring7Disc9" rMin="517.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring8Disc9" rMin="540.997*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring9Disc9" rMin="589.421*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring10Disc9" rMin="662.314*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring11Disc9" rMin="765.966*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring12Disc9" rMin="831.898*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring13Disc9" rMin="936.374*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring14Disc9" rMin="995.55*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Disc9" rMin="292.005*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring1Disc9" rMin="288.033*mm" rMax="337.721*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring2Disc9" rMin="320.0*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring3Disc9" rMin="366.701*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring4Disc9" rMin="395.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring5Disc9" rMin="442.302*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring6Disc9" rMin="467.596*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring7Disc9" rMin="515.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring8Disc9" rMin="538.864*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring9Disc9" rMin="587.121*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring10Disc9" rMin="660.714*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring11Disc9" rMin="764.566*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring12Disc9" rMin="830.648*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring13Disc9" rMin="935.262*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring14Disc9" rMin="994.54*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Disc9" rMin="288.033*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Trd1 name="EModule14Disc10" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="1*mm"/>
 <Trd1 name="EModule14Disc10INNERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
 <Trd1 name="EModule14Disc10OUTERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
@@ -18307,21 +18307,21 @@
 <Trd1 name="EModule1Disc10OUTERwafer" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule1Disc10INNERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule1Disc10OUTERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
-<Tubs name="Ring1Disc10" rMin="292.005*mm" rMax="337.721*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring2Disc10" rMin="323.555*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring3Disc10" rMin="369.831*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring4Disc10" rMin="398.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring5Disc10" rMin="444.902*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring6Disc10" rMin="470.096*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring7Disc10" rMin="517.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring8Disc10" rMin="540.997*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring9Disc10" rMin="589.421*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring10Disc10" rMin="662.314*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring11Disc10" rMin="765.966*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring12Disc10" rMin="831.898*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring13Disc10" rMin="936.374*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring14Disc10" rMin="995.55*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Disc10" rMin="292.005*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring1Disc10" rMin="288.033*mm" rMax="337.721*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring2Disc10" rMin="320.0*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring3Disc10" rMin="366.701*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring4Disc10" rMin="395.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring5Disc10" rMin="442.302*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring6Disc10" rMin="467.596*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring7Disc10" rMin="515.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring8Disc10" rMin="538.864*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring9Disc10" rMin="587.121*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring10Disc10" rMin="660.714*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring11Disc10" rMin="764.566*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring12Disc10" rMin="830.648*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring13Disc10" rMin="935.262*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring14Disc10" rMin="994.54*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Disc10" rMin="288.033*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Trd1 name="EModule14Disc11" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="1*mm"/>
 <Trd1 name="EModule14Disc11INNERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
 <Trd1 name="EModule14Disc11OUTERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
@@ -18392,21 +18392,21 @@
 <Trd1 name="EModule1Disc11OUTERwafer" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule1Disc11INNERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule1Disc11OUTERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
-<Tubs name="Ring1Disc11" rMin="292.005*mm" rMax="337.721*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring2Disc11" rMin="323.555*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring3Disc11" rMin="369.831*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring4Disc11" rMin="398.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring5Disc11" rMin="444.902*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring6Disc11" rMin="470.096*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring7Disc11" rMin="517.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring8Disc11" rMin="540.997*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring9Disc11" rMin="589.421*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring10Disc11" rMin="662.314*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring11Disc11" rMin="765.966*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring12Disc11" rMin="831.898*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring13Disc11" rMin="936.374*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring14Disc11" rMin="995.55*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Disc11" rMin="292.005*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring1Disc11" rMin="288.033*mm" rMax="337.721*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring2Disc11" rMin="320.0*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring3Disc11" rMin="366.701*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring4Disc11" rMin="395.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring5Disc11" rMin="442.302*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring6Disc11" rMin="467.596*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring7Disc11" rMin="515.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring8Disc11" rMin="538.864*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring9Disc11" rMin="587.121*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring10Disc11" rMin="660.714*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring11Disc11" rMin="764.566*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring12Disc11" rMin="830.648*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring13Disc11" rMin="935.262*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring14Disc11" rMin="994.54*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Disc11" rMin="288.033*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Trd1 name="EModule14Disc12" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="1*mm"/>
 <Trd1 name="EModule14Disc12INNERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
 <Trd1 name="EModule14Disc12OUTERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
@@ -18472,20 +18472,20 @@
 <Trd1 name="EModule2Disc12OUTERwafer" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule2Disc12INNERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule2Disc12OUTERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
-<Tubs name="Ring2Disc12" rMin="323.555*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring3Disc12" rMin="369.831*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring4Disc12" rMin="398.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring5Disc12" rMin="444.902*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring6Disc12" rMin="470.096*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring7Disc12" rMin="517.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring8Disc12" rMin="540.997*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring9Disc12" rMin="589.421*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring10Disc12" rMin="662.314*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring11Disc12" rMin="765.966*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring12Disc12" rMin="831.898*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring13Disc12" rMin="936.374*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring14Disc12" rMin="995.55*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Disc12" rMin="323.555*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring2Disc12" rMin="320.0*mm" rMax="369.367*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring3Disc12" rMin="366.701*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring4Disc12" rMin="395.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring5Disc12" rMin="442.302*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring6Disc12" rMin="467.596*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring7Disc12" rMin="515.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring8Disc12" rMin="538.864*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring9Disc12" rMin="587.121*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring10Disc12" rMin="660.714*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring11Disc12" rMin="764.566*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring12Disc12" rMin="830.648*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring13Disc12" rMin="935.262*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring14Disc12" rMin="994.54*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Disc12" rMin="320.0*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Trd1 name="EModule14Disc13" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="1*mm"/>
 <Trd1 name="EModule14Disc13INNERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
 <Trd1 name="EModule14Disc13OUTERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
@@ -18546,19 +18546,19 @@
 <Trd1 name="EModule3Disc13OUTERwafer" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule3Disc13INNERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule3Disc13OUTERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
-<Tubs name="Ring3Disc13" rMin="369.831*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring4Disc13" rMin="398.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring5Disc13" rMin="444.902*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring6Disc13" rMin="470.096*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring7Disc13" rMin="517.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring8Disc13" rMin="540.997*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring9Disc13" rMin="589.421*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring10Disc13" rMin="662.314*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring11Disc13" rMin="765.966*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring12Disc13" rMin="831.898*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring13Disc13" rMin="936.374*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring14Disc13" rMin="995.55*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Disc13" rMin="369.831*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring3Disc13" rMin="366.701*mm" rMax="415.743*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring4Disc13" rMin="395.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring5Disc13" rMin="442.302*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring6Disc13" rMin="467.596*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring7Disc13" rMin="515.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring8Disc13" rMin="538.864*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring9Disc13" rMin="587.121*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring10Disc13" rMin="660.714*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring11Disc13" rMin="764.566*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring12Disc13" rMin="830.648*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring13Disc13" rMin="935.262*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring14Disc13" rMin="994.54*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Disc13" rMin="366.701*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Trd1 name="EModule14Disc14" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="1*mm"/>
 <Trd1 name="EModule14Disc14INNERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
 <Trd1 name="EModule14Disc14OUTERwafer" dx1="45.72*mm" dx2="45.72*mm" dy1="50.25*mm" dy2="50.25*mm" dz="0.1*mm"/>
@@ -18614,30 +18614,30 @@
 <Trd1 name="EModule4Disc14OUTERwafer" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule4Disc14INNERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
 <Trd1 name="EModule4Disc14OUTERactive" dx1="48*mm" dx2="48*mm" dy1="23.13*mm" dy2="23.13*mm" dz="0.1*mm"/>
-<Tubs name="Ring4Disc14" rMin="398.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring5Disc14" rMin="444.902*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring6Disc14" rMin="470.096*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring7Disc14" rMin="517.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring8Disc14" rMin="540.997*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring9Disc14" rMin="589.421*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring10Disc14" rMin="662.314*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring11Disc14" rMin="765.966*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring12Disc14" rMin="831.898*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring13Disc14" rMin="936.374*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Ring14Disc14" rMin="995.55*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="Disc14" rMin="398.179*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="serviceR214Z1150" rMin="214.978*mm" rMax="224.978*mm" dz="9.67239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring4Disc14" rMin="395.179*mm" rMax="444.136*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring5Disc14" rMin="442.302*mm" rMax="490.917*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring6Disc14" rMin="467.596*mm" rMax="516.135*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring7Disc14" rMin="515.191*mm" rMax="563.268*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring8Disc14" rMin="538.864*mm" rMax="587.089*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring9Disc14" rMin="587.121*mm" rMax="689.662*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring10Disc14" rMin="660.714*mm" rMax="762.606*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring11Disc14" rMin="764.566*mm" rMax="866.307*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring12Disc14" rMin="830.648*mm" rMax="932.262*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring13Disc14" rMin="935.262*mm" rMax="1036.77*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Ring14Disc14" rMin="994.54*mm" rMax="1095.95*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="Disc14" rMin="395.179*mm" rMax="1095.95*mm" dz="28.1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="serviceR214Z1150" rMin="214.978*mm" rMax="224.978*mm" dz="5.17239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR214Z1169" rMin="214.978*mm" rMax="342.246*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="serviceR342Z1150" rMin="342.346*mm" rMax="352.346*mm" dz="9.67239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="serviceR342Z1150" rMin="342.346*mm" rMax="352.346*mm" dz="5.17239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR342Z1169" rMin="342.346*mm" rMax="492.878*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR492Z1150" rMin="492.978*mm" rMax="502.978*mm" dz="9.67239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR492Z1169" rMin="492.978*mm" rMax="670.878*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR670Z1169" rMin="670.978*mm" rMax="872.779*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR872Z1169" rMin="872.879*mm" rMax="1064.88*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR1064Z1169" rMin="1064.98*mm" rMax="1189.9*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="serviceR214Z-1169" rMin="214.978*mm" rMax="224.978*mm" dz="9.67239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="serviceR214Z-1169" rMin="214.978*mm" rMax="224.978*mm" dz="5.17239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR214Z-1179" rMin="214.978*mm" rMax="342.246*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="serviceR342Z-1169" rMin="342.346*mm" rMax="352.346*mm" dz="9.67239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="serviceR342Z-1169" rMin="342.346*mm" rMax="352.346*mm" dz="5.17239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR342Z-1179" rMin="342.346*mm" rMax="492.878*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR492Z-1169" rMin="492.978*mm" rMax="502.978*mm" dz="9.67239*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR492Z-1179" rMin="492.978*mm" rMax="670.878*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
@@ -18658,7 +18658,7 @@
 <Tubs name="supportR204Z1169" rMin="204.878*mm" rMax="211.478*mm" dz="1169.44*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR1096Z1169" rMin="1096.08*mm" rMax="1106.08*mm" dz="1169.44*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR1096Z1323" rMin="1100.0*mm" rMax="1109.55*mm" dz="650.278*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR281Z1323" rMin="281.905*mm" rMax="291.905*mm" dz="650.278*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR281Z1323" rMin="281.905*mm" rMax="288.0*mm" dz="650.278*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR249Z285" rMin="251.079*mm" rMax="341.446*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR375Z285" rMin="376.371*mm" rMax="492.078*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR525Z285" rMin="526.12*mm" rMax="669.978*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
@@ -18667,7 +18667,7 @@
 <Tubs name="supportR214Z1170" rMin="214.978*mm" rMax="492.978*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR670Z1189" rMin="670.978*mm" rMax="1064.98*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR1096Z2624" rMin="1100.0*mm" rMax="1109.55*mm" dz="650.278*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR281Z2624" rMin="281.905*mm" rMax="291.905*mm" dz="650.278*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR281Z2624" rMin="281.905*mm" rMax="288.0*mm" dz="650.278*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR249Z295" rMin="251.079*mm" rMax="341.446*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR375Z295" rMin="376.371*mm" rMax="492.078*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR525Z295" rMin="526.12*mm" rMax="669.978*mm" dz="5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
@@ -24529,32 +24529,32 @@
 <Translation x="0*mm" y="0*mm" z="2325*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR214Z1150"/>
-<Translation x="0*mm" y="0*mm" z="1159.77*mm"/>
+<Translation x="0*mm" y="0*mm" z="1155.13351*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR214Z1169"/>
 <Translation x="0*mm" y="0*mm" z="1174.44*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR342Z1150"/>
-<Translation x="0*mm" y="0*mm" z="1159.77*mm"/>
+<Translation x="0*mm" y="0*mm" z="1155.13351*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR342Z1169"/>
 <Translation x="0*mm" y="0*mm" z="1174.44*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR492Z1150"/>
 <Translation x="0*mm" y="0*mm" z="1159.77*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR492Z1169"/>
 <Translation x="0*mm" y="0*mm" z="1174.44*mm"/>
 </PosPart>
@@ -24574,32 +24574,32 @@
 <Translation x="0*mm" y="0*mm" z="1174.54*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR214Z-1169"/>
-<Translation x="0*mm" y="0*mm" z="-1159.77*mm"/>
+<Translation x="0*mm" y="0*mm" z="-1155.13351*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR214Z-1179"/>
 <Translation x="0*mm" y="0*mm" z="-1174.44*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR342Z-1169"/>
-<Translation x="0*mm" y="0*mm" z="-1159.77*mm"/>
+<Translation x="0*mm" y="0*mm" z="-1155.13351*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR342Z-1179"/>
 <Translation x="0*mm" y="0*mm" z="-1174.44*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR492Z-1169"/>
 <Translation x="0*mm" y="0*mm" z="-1159.77*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:serviceR492Z-1179"/>
 <Translation x="0*mm" y="0*mm" z="-1174.44*mm"/>
 </PosPart>
@@ -24663,7 +24663,7 @@
 <rChild name="tracker:supportR1190Z2910"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:supportR214Z1160"/>
 <Translation x="0*mm" y="0*mm" z="1160.0*mm"/>
 </PosPart>
@@ -24716,7 +24716,7 @@
 <Translation x="0*mm" y="0*mm" z="290*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:supportR214Z1170"/>
 <Translation x="0*mm" y="0*mm" z="-1165.2*mm"/>
 </PosPart>

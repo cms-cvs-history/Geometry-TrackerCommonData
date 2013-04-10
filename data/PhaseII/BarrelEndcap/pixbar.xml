@@ -165,14 +165,18 @@
       <ZSection z="-281.00*cm" rMin="[RinSupTubCab]" rMax="21.8*cm"/>
       <ZSection z="-245.00*cm" rMin="[RinSupTubCab]" rMax="21.8*cm"/>
       <ZSection z="-245.00*cm" rMin="[Rin2]" rMax="21.8*cm"/>
-      <ZSection z="-116.9*cm" rMin="[Rin2]" rMax="21.8*cm"/>
+      <ZSection z="-118.5*cm" rMin="[Rin2]" rMax="21.8*cm"/>
+      <ZSection z="-118.5*cm" rMin="[Rin2]" rMax="67.087*cm"/>
+      <ZSection z="-116.9*cm" rMin="[Rin2]" rMax="67.087*cm"/>
       <ZSection z="-116.9*cm" rMin="[Rin2]" rMax="109.65*cm"/>
       <ZSection z="-28.70*cm" rMin="[Rin2]" rMax="109.65*cm"/>
       <ZSection z="-28.70*cm" rMin="[Rin1]" rMax="109.65*cm"/>
       <ZSection z="28.70*cm" rMin="[Rin1]" rMax="109.65*cm"/>
       <ZSection z="28.70*cm" rMin="[Rin2]" rMax="109.65*cm"/>
       <ZSection z="116.9*cm" rMin="[Rin2]" rMax="109.65*cm"/>
-      <ZSection z="116.9*cm" rMin="[Rin2]" rMax="21.8*cm"/>
+      <ZSection z="116.9*cm" rMin="[Rin2]" rMax="67.087*cm"/>
+      <ZSection z="118.5*cm" rMin="[Rin2]" rMax="67.087*cm"/>
+      <ZSection z="118.5*cm" rMin="[Rin2]" rMax="21.8*cm"/>
       <ZSection z="245.00*cm" rMin="[Rin2]" rMax="21.8*cm"/>
       <ZSection z="245.00*cm" rMin="[RinSupTubCab]" rMax="21.8*cm"/>
       <ZSection z="281.00*cm" rMin="[RinSupTubCab]" rMax="21.8*cm"/>
