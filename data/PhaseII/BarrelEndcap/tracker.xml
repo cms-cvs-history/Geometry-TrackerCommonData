@@ -17439,7 +17439,22 @@
 </LogicalPart>
 </LogicalPartSection>
 <SolidSection label="tracker.xml">
-<Tubs name="Tracker" rMin="25*mm" rMax="1200*mm" dz="2910*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+		<Polycone name="Tracker" startPhi="0*deg" deltaPhi="360*deg">
+			<ZSection z="-[cms:TrackBeamZ2]" rMin="[cms:TrackBeamR2]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="-[cms:TrackBeamZ1]" rMin="[cms:TrackBeamR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="-[cms:TrackLumiZ2]" rMin="[cms:TrackBeamR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="-[cms:TrackLumiZ2]" rMin="[cms:TrackLumiR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="-[cms:TrackLumiZ1]" rMin="[cms:TrackLumiR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="-[cms:TrackLumiZ1]" rMin="[cms:TrackBeamR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="[cms:TrackLumiZ1]" rMin="[cms:TrackBeamR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="[cms:TrackLumiZ1]" rMin="[cms:TrackLumiR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="[cms:TrackLumiZ2]" rMin="[cms:TrackLumiR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="[cms:TrackLumiZ2]" rMin="[cms:TrackBeamR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="[cms:TrackBeamZ1]" rMin="[cms:TrackBeamR1]" rMax="[cms:TrackCalorR]"/>
+			<ZSection z="[cms:TrackBeamZ2]" rMin="[cms:TrackBeamR2]" rMax="[cms:TrackCalorR]"/>
+		</Polycone>
+<!-- Tubs name="Tracker" rMin="25*mm" rMax="1200*mm" dz="2910*mm"
+startPhi="0*deg" deltaPhi="360*deg" -->
 <Box name="BModule1Layer1" dx="48*mm" dy="23.13*mm" dz="1.4*mm"/>
 <Box name="BModule1Layer1INNERwafer" dx="48*mm" dy="23.13*mm" dz="0.1*mm"/>
 <Box name="BModule1Layer1OUTERwafer" dx="48*mm" dy="23.13*mm" dz="0.1*mm"/>
