@@ -24,12 +24,14 @@
 
 <SolidSection label="pixfwd.xml">
  <Polycone name="PixelForward" startPhi="0*deg" deltaPhi="360*deg" >
-   <ZSection z="-0.40*cm" rMin="[cms:TrackBeamR1]" rMax="17.0*cm"/>
-   <ZSection z="99.00*cm" rMin="2.50*cm" rMax="17.0*cm"/>
+   <ZSection z="-0.40*cm" rMin="[cms:TrackBeamR1]" rMax="17.451*cm"/>
+   <ZSection z="99.00*cm" rMin="2.50*cm" rMax="17.451*cm"/>
    <ZSection z="99.00*cm" rMin="2.50*cm" rMax="110.0*cm"/>
    <ZSection z="102.80*cm" rMin="2.50*cm" rMax="110.0*cm"/>
-   <ZSection z="102.80*cm" rMin="28.8033*cm" rMax="110.0*cm"/>
-   <ZSection z="235.30*cm" rMin="28.8033*cm" rMax="110.0*cm"/>
+   <ZSection z="102.80*cm" rMin="9.99*cm" rMax="110.0*cm"/>
+   <ZSection z="214.24*cm" rMin="9.99*cm" rMax="110.0*cm"/>
+   <ZSection z="214.24*cm" rMin="28.19*cm" rMax="110.0*cm"/>
+   <ZSection z="235.30*cm" rMin="28.19*cm" rMax="110.0*cm"/>
 <!--
  <ZSection z="[RootStartZ]"  rMin="[cms:TrackBeamR1]" rMax="[RootRadius]"/>
  <ZSection z="[RootMidZ1]"   rMin="[cms:TrackBeamR1]" rMax="[RootRadius]"/>

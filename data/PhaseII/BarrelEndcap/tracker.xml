@@ -24701,9 +24701,9 @@ startPhi="0*deg" deltaPhi="360*deg" -->
 <Translation x="0*mm" y="0*mm" z="1973.72*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<rParent name="pixfwd:PixelForward"/>
 <rChild name="tracker:supportR281Z1323"/>
-<Translation x="0*mm" y="0*mm" z="1973.72*mm"/>
+<Translation x="0*mm" y="0*mm" z="1673.72*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixbar:PixelBarrel"/>
@@ -24745,11 +24745,11 @@ startPhi="0*deg" deltaPhi="360*deg" -->
 <rChild name="tracker:supportR1096Z2624"/>
 <Translation x="0*mm" y="0*mm" z="-1973.72*mm"/>
 </PosPart>
-<PosPart copyNumber="1">
-<rParent name="tracker:Tracker"/>
+<!-- PosPart copyNumber="1">
+<rParent name="pixfwd:PixelForward"/>
 <rChild name="tracker:supportR281Z2624"/>
 <Translation x="0*mm" y="0*mm" z="-1973.72*mm"/>
-</PosPart>
+</PosPart -->
 <PosPart copyNumber="1">
 <rParent name="pixbar:PixelBarrel"/>
 <rChild name="tracker:supportR249Z295"/>
