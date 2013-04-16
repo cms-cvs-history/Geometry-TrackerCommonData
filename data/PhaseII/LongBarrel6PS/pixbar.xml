@@ -6,7 +6,7 @@
     <Constant name="Rin2" value="18.00*cm"/>
     <Constant name="Rin3" value="18.6*cm"/>
     <Constant name="RinSupTubCab" value="15.00*cm"/>
-    <Constant name="Rout1" value="21.80*cm"/>
+    <Constant name="Rout1" value="21.35*cm"/>
     <Constant name="Rout2" value="21.00*cm"/>
     <Constant name="Zv1" value="28.70*cm"/>
     <Constant name="Zv2" value="56.00*cm"/>
@@ -14,11 +14,11 @@
     <Constant name="Zv4" value="282.0*cm"/>
     <Constant name="ZvSupTubCab" value="248.0*cm"/>
     <Constant name="SupportL" value="221.0*cm"/>
-    <Constant name="SupportRin" value="21.65*cm"/>
-    <Constant name="SupportW" value="20.00*cm"/>
-    <Constant name="SupportT" value="0.350*cm"/>
+    <Constant name="SupportRin" value="21.2*cm"/>
     <Constant name="SupportL_cut" value="[FlangeT]"/>
     <Constant name="SupportW_cut" value="7.00*cm"/>
+    <Constant name="SupportW" value="20.00*cm"/>
+    <Constant name="SupportT" value="0.350*cm"/>
     <Constant name="SupportY_base" value="19.00*cm"/>
     <Constant name="SupportY" value="[SupportY_base]+[SupportT]/2"/>
     <Constant name="ShieldL" value="54.0*cm"/>
@@ -162,77 +162,54 @@
   </RotationSection>
   <SolidSection label="pixbar.xml">
     <Polycone name="PixelBarrel" startPhi="0*deg" deltaPhi="360*deg">
-<!--      <ZSection z="-[Zv4]" rMin="[RinSupTubCab]" rMax="[Rout2]"/>
-      <ZSection z="-[ZvSupTubCab]" rMin="[RinSupTubCab]" rMax="[Rout2]"/>
-      <ZSection z="-[ZvSupTubCab]" rMin="[Rin2]" rMax="[Rout2]"/>
-      <ZSection z="-[Zv3]" rMin="[Rin2]" rMax="[Rout2]"/>
-      <ZSection z="-[Zv3]" rMin="[Rin2]" rMax="[Rout1]"/>
-      <ZSection z="-[Zv1]" rMin="[Rin2]" rMax="[Rout1]"/>
-      <ZSection z="-[Zv1]" rMin="[Rin1]" rMax="[Rout1]"/>
--->
+      <ZSection z="-282.00*cm" rMin="[RinSupTubCab]" rMax="109.65*cm"/>
+      <ZSection z="-244.00*cm" rMin="[RinSupTubCab]" rMax="109.65*cm"/>
+      <ZSection z="-244.00*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="-118.5*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="-118.5*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="-116.9*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="-116.9*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="-28.70*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="-28.70*cm" rMin="[Rin1]" rMax="109.65*cm"/>
+      <ZSection z="28.70*cm" rMin="[Rin1]" rMax="109.65*cm"/>
+      <ZSection z="28.70*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="116.9*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="116.9*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="118.5*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="118.5*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="244.00*cm" rMin="[Rin2]" rMax="109.65*cm"/>
+      <ZSection z="244.00*cm" rMin="[RinSupTubCab]" rMax="109.65*cm"/>
+      <ZSection z="282.00*cm" rMin="[RinSupTubCab]" rMax="109.65*cm"/>
+    </Polycone>
+    <!--
+    <Polycone name="PixelBarrel" startPhi="0*deg" deltaPhi="360*deg">
       <RZPoint r="[Rin1]" z="-[Zv1]"/>
       <RZPoint r="[Rin2]" z="-[Zv1]"/>
       <RZPoint r="[Rin2]" z="-[ZvSupTubCab]"/>
       <RZPoint r="[RinSupTubCab]" z="-[ZvSupTubCab]"/>
-      <RZPoint r="[RinSupTubCab]" z="-[Zv4]"/>
       <RZPoint r="[Rout2]" z="-[Zv4]"/>
       <RZPoint r="[Rout2]" z="-[Zv3]"/>
       <RZPoint r="[Rout1]" z="-[Zv3]"/>
-      <RZPoint r="[Rout1]" z="0*mm"/>
-
-<RZPoint r="288*mm" z="0*mm"/>
-<RZPoint r="288*mm" z="-1863.6*mm"/>
-<RZPoint r="329*mm" z="-1863.6*mm"/>
-<RZPoint r="329*mm" z="-2141.61*mm"/>
-<RZPoint r="461*mm" z="-2141.61*mm"/>
-<RZPoint r="461*mm" z="-2833.89*mm"/>
-<RZPoint r="1080.02*mm" z="-2833.89*mm"/>
-<RZPoint r="1080.02*mm" z="2833.89*mm"/>
-<RZPoint r="461*mm" z="2833.89*mm"/>
-<RZPoint r="461*mm" z="2141.61*mm"/>
-<RZPoint r="329*mm" z="2141.61*mm"/>
-<RZPoint r="329*mm" z="1863.6*mm"/>
-<RZPoint r="288*mm" z="1863.6*mm"/>
-<RZPoint r="288*mm" z="0*mm"/>
-
-
-
-<!--
-      <RZPoint r="275*mm" z="-1925.89*mm"/>
-      <RZPoint r="346*mm" z="-1925.89*mm"/>
-      <RZPoint r="346*mm" z="-2221.95*mm"/>
-      <RZPoint r="466*mm" z="-2221.95*mm"/>
-      <RZPoint r="466*mm" z="-2654*mm"/>
-      <RZPoint r="1040.11*mm" z="-2654*mm"/>
-      <RZPoint r="1040.11*mm" z="2654*mm"/>
-      <RZPoint r="466*mm" z="2654*mm"/>
-      <RZPoint r="466*mm" z="2221.95*mm"/>
-      <RZPoint r="346*mm" z="2221.95*mm"/>
-      <RZPoint r="346*mm" z="1925.89*mm"/>
-      <RZPoint r="275*mm" z="1925.89*mm"/>
--->
-
-
-      <RZPoint r="[Rout1]" z="0*mm"/>
+      <RZPoint r="218*mm" z="0*mm"/>
+      <RZPoint r="218*mm" z="-1170*mm"/>
+      <RZPoint r="670*mm" z="-1170*mm"/>
+      <RZPoint r="1094.95*mm" z="-1189.44*mm"/>
+      
+      <RZPoint r="1094.95*mm" z="1189.44*mm"/>
+      <RZPoint r="670*mm" z="1189.44*mm"/>
+      <RZPoint r="670*mm" z="1170*mm"/>
+      <RZPoint r="218*mm" z="1170*mm"/>
       <RZPoint r="[Rout1]" z="[Zv3]"/>
       <RZPoint r="[Rout2]" z="[Zv3]"/>
       <RZPoint r="[Rout2]" z="[Zv4]"/>
-      <RZPoint r="[RinSupTubCab]" z="[Zv4]"/>
       <RZPoint r="[RinSupTubCab]" z="[ZvSupTubCab]"/>
       <RZPoint r="[Rin2]" z="[ZvSupTubCab]"/>
       <RZPoint r="[Rin2]" z="[Zv1]"/>
       <RZPoint r="[Rin1]" z="[Zv1]"/>
-<!--      <ZSection z="[Zv1]" rMin="[Rin1]" rMax="[Rout1]"/>
-      <ZSection z="[Zv1]" rMin="[Rin2]" rMax="[Rout1]"/>
-      <ZSection z="[Zv3]" rMin="[Rin2]" rMax="[Rout1]"/>
-      <ZSection z="[Zv3]" rMin="[Rin2]" rMax="[Rout2]"/>
-      <ZSection z="[ZvSupTubCab]" rMin="[Rin2]" rMax="[Rout2]"/>
-      <ZSection z="[ZvSupTubCab]" rMin="[RinSupTubCab]" rMax="[Rout2]"/>
-      <ZSection z="[Zv4]" rMin="[RinSupTubCab]" rMax="[Rout2]"/>
--->
     </Polycone>
+    -->
     <Tubs name="PixelBarrelSuppTub" rMin="[SupportRin]" rMax="[Rout1]" dz="[SupportL]/2" startPhi="0*deg" deltaPhi="360*deg"/>
-    <Box name="PixelBarrelSuppBox_full" dx="[SupportW]/2" dy="[SupportT]/2" dz="[SupportL]/2"/>
+    <Box name="PixelBarrelSuppBox_full" dx="[SupportW]/2 - 3.2*cm" dy="[SupportT]/2" dz="[SupportL]/2"/>
     <Box name="PixelBarrelSuppBox_cut" dx="[SupportW_cut]/2" dy="[SupportT]/2" dz="[SupportL_cut]/2"/>
     <SubtractionSolid name="PixelBarrelSuppBox_1">
       <rSolid name="PixelBarrelSuppBox_full"/>
@@ -502,10 +479,12 @@
     </LogicalPart>
   </LogicalPartSection>
   <PosPartSection label="pixbar.xml">
+    <!-- -->
     <PosPart copyNumber="1">
       <rParent name="pixbar:PixelBarrel"/>
       <rChild name="pixbar:PixelBarrelSuppTub"/>
     </PosPart>
+    <!-- -->
     <PosPart copyNumber="1">
       <rParent name="pixbar:PixelBarrel"/>
       <rChild name="pixbar:PixelBarrelSuppBox"/>

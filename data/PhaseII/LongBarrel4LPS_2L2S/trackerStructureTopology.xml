@@ -175,6 +175,8 @@
 <PartSelector path="//Layer6"/>
 <PartSelector path="//Layer7"/>
 <PartSelector path="//Layer8"/>
+<PartSelector path="//Layer9"/>
+<PartSelector path="//Layer10"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelLayer"/>
 </SpecPar>
 <SpecPar name="OuterTrackerPixelBarrelLadderPar">
@@ -186,6 +188,8 @@
 <PartSelector path="//Rod6"/>
 <PartSelector path="//Rod7"/>
 <PartSelector path="//Rod8"/>
+<PartSelector path="//Rod9"/>
+<PartSelector path="//Rod10"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelLadder"/>
 </SpecPar>
 <SpecPar name="OuterTrackerPixelEndcapDiskPar">
@@ -748,214 +752,6 @@
 </SpecPar>
 <SpecPar name="BModule35Layer1OUTERactivePar">
 <PartSelector path="//BModule35Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule36Layer1INNERactivePar">
-<PartSelector path="//BModule36Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule36Layer1OUTERactivePar">
-<PartSelector path="//BModule36Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule37Layer1INNERactivePar">
-<PartSelector path="//BModule37Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule37Layer1OUTERactivePar">
-<PartSelector path="//BModule37Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule38Layer1INNERactivePar">
-<PartSelector path="//BModule38Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule38Layer1OUTERactivePar">
-<PartSelector path="//BModule38Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule39Layer1INNERactivePar">
-<PartSelector path="//BModule39Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule39Layer1OUTERactivePar">
-<PartSelector path="//BModule39Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule40Layer1INNERactivePar">
-<PartSelector path="//BModule40Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule40Layer1OUTERactivePar">
-<PartSelector path="//BModule40Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule41Layer1INNERactivePar">
-<PartSelector path="//BModule41Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule41Layer1OUTERactivePar">
-<PartSelector path="//BModule41Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule42Layer1INNERactivePar">
-<PartSelector path="//BModule42Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule42Layer1OUTERactivePar">
-<PartSelector path="//BModule42Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule43Layer1INNERactivePar">
-<PartSelector path="//BModule43Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule43Layer1OUTERactivePar">
-<PartSelector path="//BModule43Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule44Layer1INNERactivePar">
-<PartSelector path="//BModule44Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule44Layer1OUTERactivePar">
-<PartSelector path="//BModule44Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule45Layer1INNERactivePar">
-<PartSelector path="//BModule45Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule45Layer1OUTERactivePar">
-<PartSelector path="//BModule45Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule46Layer1INNERactivePar">
-<PartSelector path="//BModule46Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule46Layer1OUTERactivePar">
-<PartSelector path="//BModule46Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule47Layer1INNERactivePar">
-<PartSelector path="//BModule47Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule47Layer1OUTERactivePar">
-<PartSelector path="//BModule47Layer1OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule48Layer1INNERactivePar">
-<PartSelector path="//BModule48Layer1INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule48Layer1OUTERactivePar">
-<PartSelector path="//BModule48Layer1OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="240"/>
 <Parameter name="PixelROCCols" value="1"/>
@@ -1660,198 +1456,6 @@
 </SpecPar>
 <SpecPar name="BModule44Layer2OUTERactivePar">
 <PartSelector path="//BModule44Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule45Layer2INNERactivePar">
-<PartSelector path="//BModule45Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule45Layer2OUTERactivePar">
-<PartSelector path="//BModule45Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule46Layer2INNERactivePar">
-<PartSelector path="//BModule46Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule46Layer2OUTERactivePar">
-<PartSelector path="//BModule46Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule47Layer2INNERactivePar">
-<PartSelector path="//BModule47Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule47Layer2OUTERactivePar">
-<PartSelector path="//BModule47Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule48Layer2INNERactivePar">
-<PartSelector path="//BModule48Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule48Layer2OUTERactivePar">
-<PartSelector path="//BModule48Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule49Layer2INNERactivePar">
-<PartSelector path="//BModule49Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule49Layer2OUTERactivePar">
-<PartSelector path="//BModule49Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule50Layer2INNERactivePar">
-<PartSelector path="//BModule50Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule50Layer2OUTERactivePar">
-<PartSelector path="//BModule50Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule51Layer2INNERactivePar">
-<PartSelector path="//BModule51Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule51Layer2OUTERactivePar">
-<PartSelector path="//BModule51Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule52Layer2INNERactivePar">
-<PartSelector path="//BModule52Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule52Layer2OUTERactivePar">
-<PartSelector path="//BModule52Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule53Layer2INNERactivePar">
-<PartSelector path="//BModule53Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule53Layer2OUTERactivePar">
-<PartSelector path="//BModule53Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule54Layer2INNERactivePar">
-<PartSelector path="//BModule54Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule54Layer2OUTERactivePar">
-<PartSelector path="//BModule54Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule55Layer2INNERactivePar">
-<PartSelector path="//BModule55Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule55Layer2OUTERactivePar">
-<PartSelector path="//BModule55Layer2OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule56Layer2INNERactivePar">
-<PartSelector path="//BModule56Layer2INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="240"/>
-<Parameter name="PixelROCCols" value="16"/>
-<Parameter name="PixelROC_X" value="4"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule56Layer2OUTERactivePar">
-<PartSelector path="//BModule56Layer2OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="240"/>
 <Parameter name="PixelROCCols" value="1"/>
@@ -2898,6 +2502,38 @@
 <Parameter name="PixelROC_X" value="4"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
+<SpecPar name="BModule66Layer3INNERactivePar">
+<PartSelector path="//BModule66Layer3INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="240"/>
+<Parameter name="PixelROCCols" value="16"/>
+<Parameter name="PixelROC_X" value="4"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule66Layer3OUTERactivePar">
+<PartSelector path="//BModule66Layer3OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="240"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="4"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule67Layer3INNERactivePar">
+<PartSelector path="//BModule67Layer3INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="240"/>
+<Parameter name="PixelROCCols" value="16"/>
+<Parameter name="PixelROC_X" value="4"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule67Layer3OUTERactivePar">
+<PartSelector path="//BModule67Layer3OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="240"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="4"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
 <SpecPar name="BModule1Layer4INNERactivePar">
 <PartSelector path="//BModule1Layer4INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
@@ -3938,6 +3574,38 @@
 <Parameter name="PixelROC_X" value="4"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
+<SpecPar name="BModule66Layer4INNERactivePar">
+<PartSelector path="//BModule66Layer4INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="240"/>
+<Parameter name="PixelROCCols" value="16"/>
+<Parameter name="PixelROC_X" value="4"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule66Layer4OUTERactivePar">
+<PartSelector path="//BModule66Layer4OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="240"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="4"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule67Layer4INNERactivePar">
+<PartSelector path="//BModule67Layer4INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="240"/>
+<Parameter name="PixelROCCols" value="16"/>
+<Parameter name="PixelROC_X" value="4"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule67Layer4OUTERactivePar">
+<PartSelector path="//BModule67Layer4OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="240"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="4"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
 <SpecPar name="BModule1Layer5INNERactivePar">
 <PartSelector path="//BModule1Layer5INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
@@ -4002,6 +3670,54 @@
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
+<SpecPar name="BModule5Layer5INNERactivePar">
+<PartSelector path="//BModule5Layer5INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule5Layer5OUTERactivePar">
+<PartSelector path="//BModule5Layer5OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule6Layer5INNERactivePar">
+<PartSelector path="//BModule6Layer5INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule6Layer5OUTERactivePar">
+<PartSelector path="//BModule6Layer5OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule7Layer5INNERactivePar">
+<PartSelector path="//BModule7Layer5INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule7Layer5OUTERactivePar">
+<PartSelector path="//BModule7Layer5OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
 <SpecPar name="BModule1Layer6INNERactivePar">
 <PartSelector path="//BModule1Layer6INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
@@ -4060,6 +3776,54 @@
 </SpecPar>
 <SpecPar name="BModule4Layer6OUTERactivePar">
 <PartSelector path="//BModule4Layer6OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule5Layer6INNERactivePar">
+<PartSelector path="//BModule5Layer6INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule5Layer6OUTERactivePar">
+<PartSelector path="//BModule5Layer6OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule6Layer6INNERactivePar">
+<PartSelector path="//BModule6Layer6INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule6Layer6OUTERactivePar">
+<PartSelector path="//BModule6Layer6OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule7Layer6INNERactivePar">
+<PartSelector path="//BModule7Layer6INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule7Layer6OUTERactivePar">
+<PartSelector path="//BModule7Layer6OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
@@ -4178,342 +3942,6 @@
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule8Layer7INNERactivePar">
-<PartSelector path="//BModule8Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule8Layer7OUTERactivePar">
-<PartSelector path="//BModule8Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule9Layer7INNERactivePar">
-<PartSelector path="//BModule9Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule9Layer7OUTERactivePar">
-<PartSelector path="//BModule9Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule10Layer7INNERactivePar">
-<PartSelector path="//BModule10Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule10Layer7OUTERactivePar">
-<PartSelector path="//BModule10Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule11Layer7INNERactivePar">
-<PartSelector path="//BModule11Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule11Layer7OUTERactivePar">
-<PartSelector path="//BModule11Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule12Layer7INNERactivePar">
-<PartSelector path="//BModule12Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule12Layer7OUTERactivePar">
-<PartSelector path="//BModule12Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule13Layer7INNERactivePar">
-<PartSelector path="//BModule13Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule13Layer7OUTERactivePar">
-<PartSelector path="//BModule13Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule14Layer7INNERactivePar">
-<PartSelector path="//BModule14Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule14Layer7OUTERactivePar">
-<PartSelector path="//BModule14Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule15Layer7INNERactivePar">
-<PartSelector path="//BModule15Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule15Layer7OUTERactivePar">
-<PartSelector path="//BModule15Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule16Layer7INNERactivePar">
-<PartSelector path="//BModule16Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule16Layer7OUTERactivePar">
-<PartSelector path="//BModule16Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule17Layer7INNERactivePar">
-<PartSelector path="//BModule17Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule17Layer7OUTERactivePar">
-<PartSelector path="//BModule17Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule18Layer7INNERactivePar">
-<PartSelector path="//BModule18Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule18Layer7OUTERactivePar">
-<PartSelector path="//BModule18Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule19Layer7INNERactivePar">
-<PartSelector path="//BModule19Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule19Layer7OUTERactivePar">
-<PartSelector path="//BModule19Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule20Layer7INNERactivePar">
-<PartSelector path="//BModule20Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule20Layer7OUTERactivePar">
-<PartSelector path="//BModule20Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule21Layer7INNERactivePar">
-<PartSelector path="//BModule21Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule21Layer7OUTERactivePar">
-<PartSelector path="//BModule21Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule22Layer7INNERactivePar">
-<PartSelector path="//BModule22Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule22Layer7OUTERactivePar">
-<PartSelector path="//BModule22Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule23Layer7INNERactivePar">
-<PartSelector path="//BModule23Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule23Layer7OUTERactivePar">
-<PartSelector path="//BModule23Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule24Layer7INNERactivePar">
-<PartSelector path="//BModule24Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule24Layer7OUTERactivePar">
-<PartSelector path="//BModule24Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule25Layer7INNERactivePar">
-<PartSelector path="//BModule25Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule25Layer7OUTERactivePar">
-<PartSelector path="//BModule25Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule26Layer7INNERactivePar">
-<PartSelector path="//BModule26Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule26Layer7OUTERactivePar">
-<PartSelector path="//BModule26Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule27Layer7INNERactivePar">
-<PartSelector path="//BModule27Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule27Layer7OUTERactivePar">
-<PartSelector path="//BModule27Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule28Layer7INNERactivePar">
-<PartSelector path="//BModule28Layer7INNERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
-<SpecPar name="BModule28Layer7OUTERactivePar">
-<PartSelector path="//BModule28Layer7OUTERactive"/>
-<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
-<Parameter name="PixelROCRows" value="127"/>
-<Parameter name="PixelROCCols" value="1"/>
-<Parameter name="PixelROC_X" value="8"/>
-<Parameter name="PixelROC_Y" value="2"/>
-</SpecPar>
 <SpecPar name="BModule1Layer8INNERactivePar">
 <PartSelector path="//BModule1Layer8INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
@@ -4626,336 +4054,896 @@
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule8Layer8INNERactivePar">
-<PartSelector path="//BModule8Layer8INNERactive"/>
+<SpecPar name="BModule1Layer9INNERactivePar">
+<PartSelector path="//BModule1Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule8Layer8OUTERactivePar">
-<PartSelector path="//BModule8Layer8OUTERactive"/>
+<SpecPar name="BModule1Layer9OUTERactivePar">
+<PartSelector path="//BModule1Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule9Layer8INNERactivePar">
-<PartSelector path="//BModule9Layer8INNERactive"/>
+<SpecPar name="BModule2Layer9INNERactivePar">
+<PartSelector path="//BModule2Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule9Layer8OUTERactivePar">
-<PartSelector path="//BModule9Layer8OUTERactive"/>
+<SpecPar name="BModule2Layer9OUTERactivePar">
+<PartSelector path="//BModule2Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule10Layer8INNERactivePar">
-<PartSelector path="//BModule10Layer8INNERactive"/>
+<SpecPar name="BModule3Layer9INNERactivePar">
+<PartSelector path="//BModule3Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule10Layer8OUTERactivePar">
-<PartSelector path="//BModule10Layer8OUTERactive"/>
+<SpecPar name="BModule3Layer9OUTERactivePar">
+<PartSelector path="//BModule3Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule11Layer8INNERactivePar">
-<PartSelector path="//BModule11Layer8INNERactive"/>
+<SpecPar name="BModule4Layer9INNERactivePar">
+<PartSelector path="//BModule4Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule11Layer8OUTERactivePar">
-<PartSelector path="//BModule11Layer8OUTERactive"/>
+<SpecPar name="BModule4Layer9OUTERactivePar">
+<PartSelector path="//BModule4Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule12Layer8INNERactivePar">
-<PartSelector path="//BModule12Layer8INNERactive"/>
+<SpecPar name="BModule5Layer9INNERactivePar">
+<PartSelector path="//BModule5Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule12Layer8OUTERactivePar">
-<PartSelector path="//BModule12Layer8OUTERactive"/>
+<SpecPar name="BModule5Layer9OUTERactivePar">
+<PartSelector path="//BModule5Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule13Layer8INNERactivePar">
-<PartSelector path="//BModule13Layer8INNERactive"/>
+<SpecPar name="BModule6Layer9INNERactivePar">
+<PartSelector path="//BModule6Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule13Layer8OUTERactivePar">
-<PartSelector path="//BModule13Layer8OUTERactive"/>
+<SpecPar name="BModule6Layer9OUTERactivePar">
+<PartSelector path="//BModule6Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule14Layer8INNERactivePar">
-<PartSelector path="//BModule14Layer8INNERactive"/>
+<SpecPar name="BModule7Layer9INNERactivePar">
+<PartSelector path="//BModule7Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule14Layer8OUTERactivePar">
-<PartSelector path="//BModule14Layer8OUTERactive"/>
+<SpecPar name="BModule7Layer9OUTERactivePar">
+<PartSelector path="//BModule7Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule15Layer8INNERactivePar">
-<PartSelector path="//BModule15Layer8INNERactive"/>
+<SpecPar name="BModule8Layer9INNERactivePar">
+<PartSelector path="//BModule8Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule15Layer8OUTERactivePar">
-<PartSelector path="//BModule15Layer8OUTERactive"/>
+<SpecPar name="BModule8Layer9OUTERactivePar">
+<PartSelector path="//BModule8Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule16Layer8INNERactivePar">
-<PartSelector path="//BModule16Layer8INNERactive"/>
+<SpecPar name="BModule9Layer9INNERactivePar">
+<PartSelector path="//BModule9Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule16Layer8OUTERactivePar">
-<PartSelector path="//BModule16Layer8OUTERactive"/>
+<SpecPar name="BModule9Layer9OUTERactivePar">
+<PartSelector path="//BModule9Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule17Layer8INNERactivePar">
-<PartSelector path="//BModule17Layer8INNERactive"/>
+<SpecPar name="BModule10Layer9INNERactivePar">
+<PartSelector path="//BModule10Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule17Layer8OUTERactivePar">
-<PartSelector path="//BModule17Layer8OUTERactive"/>
+<SpecPar name="BModule10Layer9OUTERactivePar">
+<PartSelector path="//BModule10Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule18Layer8INNERactivePar">
-<PartSelector path="//BModule18Layer8INNERactive"/>
+<SpecPar name="BModule11Layer9INNERactivePar">
+<PartSelector path="//BModule11Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule18Layer8OUTERactivePar">
-<PartSelector path="//BModule18Layer8OUTERactive"/>
+<SpecPar name="BModule11Layer9OUTERactivePar">
+<PartSelector path="//BModule11Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule19Layer8INNERactivePar">
-<PartSelector path="//BModule19Layer8INNERactive"/>
+<SpecPar name="BModule12Layer9INNERactivePar">
+<PartSelector path="//BModule12Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule19Layer8OUTERactivePar">
-<PartSelector path="//BModule19Layer8OUTERactive"/>
+<SpecPar name="BModule12Layer9OUTERactivePar">
+<PartSelector path="//BModule12Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule20Layer8INNERactivePar">
-<PartSelector path="//BModule20Layer8INNERactive"/>
+<SpecPar name="BModule13Layer9INNERactivePar">
+<PartSelector path="//BModule13Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule20Layer8OUTERactivePar">
-<PartSelector path="//BModule20Layer8OUTERactive"/>
+<SpecPar name="BModule13Layer9OUTERactivePar">
+<PartSelector path="//BModule13Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule21Layer8INNERactivePar">
-<PartSelector path="//BModule21Layer8INNERactive"/>
+<SpecPar name="BModule14Layer9INNERactivePar">
+<PartSelector path="//BModule14Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule21Layer8OUTERactivePar">
-<PartSelector path="//BModule21Layer8OUTERactive"/>
+<SpecPar name="BModule14Layer9OUTERactivePar">
+<PartSelector path="//BModule14Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule22Layer8INNERactivePar">
-<PartSelector path="//BModule22Layer8INNERactive"/>
+<SpecPar name="BModule15Layer9INNERactivePar">
+<PartSelector path="//BModule15Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule22Layer8OUTERactivePar">
-<PartSelector path="//BModule22Layer8OUTERactive"/>
+<SpecPar name="BModule15Layer9OUTERactivePar">
+<PartSelector path="//BModule15Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule23Layer8INNERactivePar">
-<PartSelector path="//BModule23Layer8INNERactive"/>
+<SpecPar name="BModule16Layer9INNERactivePar">
+<PartSelector path="//BModule16Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule23Layer8OUTERactivePar">
-<PartSelector path="//BModule23Layer8OUTERactive"/>
+<SpecPar name="BModule16Layer9OUTERactivePar">
+<PartSelector path="//BModule16Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule24Layer8INNERactivePar">
-<PartSelector path="//BModule24Layer8INNERactive"/>
+<SpecPar name="BModule17Layer9INNERactivePar">
+<PartSelector path="//BModule17Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule24Layer8OUTERactivePar">
-<PartSelector path="//BModule24Layer8OUTERactive"/>
+<SpecPar name="BModule17Layer9OUTERactivePar">
+<PartSelector path="//BModule17Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule25Layer8INNERactivePar">
-<PartSelector path="//BModule25Layer8INNERactive"/>
+<SpecPar name="BModule18Layer9INNERactivePar">
+<PartSelector path="//BModule18Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule25Layer8OUTERactivePar">
-<PartSelector path="//BModule25Layer8OUTERactive"/>
+<SpecPar name="BModule18Layer9OUTERactivePar">
+<PartSelector path="//BModule18Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule26Layer8INNERactivePar">
-<PartSelector path="//BModule26Layer8INNERactive"/>
+<SpecPar name="BModule19Layer9INNERactivePar">
+<PartSelector path="//BModule19Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule26Layer8OUTERactivePar">
-<PartSelector path="//BModule26Layer8OUTERactive"/>
+<SpecPar name="BModule19Layer9OUTERactivePar">
+<PartSelector path="//BModule19Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule27Layer8INNERactivePar">
-<PartSelector path="//BModule27Layer8INNERactive"/>
+<SpecPar name="BModule20Layer9INNERactivePar">
+<PartSelector path="//BModule20Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule27Layer8OUTERactivePar">
-<PartSelector path="//BModule27Layer8OUTERactive"/>
+<SpecPar name="BModule20Layer9OUTERactivePar">
+<PartSelector path="//BModule20Layer9OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule28Layer8INNERactivePar">
-<PartSelector path="//BModule28Layer8INNERactive"/>
+<SpecPar name="BModule21Layer9INNERactivePar">
+<PartSelector path="//BModule21Layer9INNERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
 <Parameter name="PixelROC_X" value="8"/>
 <Parameter name="PixelROC_Y" value="2"/>
 </SpecPar>
-<SpecPar name="BModule28Layer8OUTERactivePar">
-<PartSelector path="//BModule28Layer8OUTERactive"/>
+<SpecPar name="BModule21Layer9OUTERactivePar">
+<PartSelector path="//BModule21Layer9OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule22Layer9INNERactivePar">
+<PartSelector path="//BModule22Layer9INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule22Layer9OUTERactivePar">
+<PartSelector path="//BModule22Layer9OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule23Layer9INNERactivePar">
+<PartSelector path="//BModule23Layer9INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule23Layer9OUTERactivePar">
+<PartSelector path="//BModule23Layer9OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule24Layer9INNERactivePar">
+<PartSelector path="//BModule24Layer9INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule24Layer9OUTERactivePar">
+<PartSelector path="//BModule24Layer9OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule25Layer9INNERactivePar">
+<PartSelector path="//BModule25Layer9INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule25Layer9OUTERactivePar">
+<PartSelector path="//BModule25Layer9OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule26Layer9INNERactivePar">
+<PartSelector path="//BModule26Layer9INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule26Layer9OUTERactivePar">
+<PartSelector path="//BModule26Layer9OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule27Layer9INNERactivePar">
+<PartSelector path="//BModule27Layer9INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule27Layer9OUTERactivePar">
+<PartSelector path="//BModule27Layer9OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule28Layer9INNERactivePar">
+<PartSelector path="//BModule28Layer9INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule28Layer9OUTERactivePar">
+<PartSelector path="//BModule28Layer9OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule1Layer10INNERactivePar">
+<PartSelector path="//BModule1Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule1Layer10OUTERactivePar">
+<PartSelector path="//BModule1Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule2Layer10INNERactivePar">
+<PartSelector path="//BModule2Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule2Layer10OUTERactivePar">
+<PartSelector path="//BModule2Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule3Layer10INNERactivePar">
+<PartSelector path="//BModule3Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule3Layer10OUTERactivePar">
+<PartSelector path="//BModule3Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule4Layer10INNERactivePar">
+<PartSelector path="//BModule4Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule4Layer10OUTERactivePar">
+<PartSelector path="//BModule4Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule5Layer10INNERactivePar">
+<PartSelector path="//BModule5Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule5Layer10OUTERactivePar">
+<PartSelector path="//BModule5Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule6Layer10INNERactivePar">
+<PartSelector path="//BModule6Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule6Layer10OUTERactivePar">
+<PartSelector path="//BModule6Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule7Layer10INNERactivePar">
+<PartSelector path="//BModule7Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule7Layer10OUTERactivePar">
+<PartSelector path="//BModule7Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule8Layer10INNERactivePar">
+<PartSelector path="//BModule8Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule8Layer10OUTERactivePar">
+<PartSelector path="//BModule8Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule9Layer10INNERactivePar">
+<PartSelector path="//BModule9Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule9Layer10OUTERactivePar">
+<PartSelector path="//BModule9Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule10Layer10INNERactivePar">
+<PartSelector path="//BModule10Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule10Layer10OUTERactivePar">
+<PartSelector path="//BModule10Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule11Layer10INNERactivePar">
+<PartSelector path="//BModule11Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule11Layer10OUTERactivePar">
+<PartSelector path="//BModule11Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule12Layer10INNERactivePar">
+<PartSelector path="//BModule12Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule12Layer10OUTERactivePar">
+<PartSelector path="//BModule12Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule13Layer10INNERactivePar">
+<PartSelector path="//BModule13Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule13Layer10OUTERactivePar">
+<PartSelector path="//BModule13Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule14Layer10INNERactivePar">
+<PartSelector path="//BModule14Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule14Layer10OUTERactivePar">
+<PartSelector path="//BModule14Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule15Layer10INNERactivePar">
+<PartSelector path="//BModule15Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule15Layer10OUTERactivePar">
+<PartSelector path="//BModule15Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule16Layer10INNERactivePar">
+<PartSelector path="//BModule16Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule16Layer10OUTERactivePar">
+<PartSelector path="//BModule16Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule17Layer10INNERactivePar">
+<PartSelector path="//BModule17Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule17Layer10OUTERactivePar">
+<PartSelector path="//BModule17Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule18Layer10INNERactivePar">
+<PartSelector path="//BModule18Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule18Layer10OUTERactivePar">
+<PartSelector path="//BModule18Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule19Layer10INNERactivePar">
+<PartSelector path="//BModule19Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule19Layer10OUTERactivePar">
+<PartSelector path="//BModule19Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule20Layer10INNERactivePar">
+<PartSelector path="//BModule20Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule20Layer10OUTERactivePar">
+<PartSelector path="//BModule20Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule21Layer10INNERactivePar">
+<PartSelector path="//BModule21Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule21Layer10OUTERactivePar">
+<PartSelector path="//BModule21Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule22Layer10INNERactivePar">
+<PartSelector path="//BModule22Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule22Layer10OUTERactivePar">
+<PartSelector path="//BModule22Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule23Layer10INNERactivePar">
+<PartSelector path="//BModule23Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule23Layer10OUTERactivePar">
+<PartSelector path="//BModule23Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule24Layer10INNERactivePar">
+<PartSelector path="//BModule24Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule24Layer10OUTERactivePar">
+<PartSelector path="//BModule24Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule25Layer10INNERactivePar">
+<PartSelector path="//BModule25Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule25Layer10OUTERactivePar">
+<PartSelector path="//BModule25Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule26Layer10INNERactivePar">
+<PartSelector path="//BModule26Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule26Layer10OUTERactivePar">
+<PartSelector path="//BModule26Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule27Layer10INNERactivePar">
+<PartSelector path="//BModule27Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule27Layer10OUTERactivePar">
+<PartSelector path="//BModule27Layer10OUTERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule28Layer10INNERactivePar">
+<PartSelector path="//BModule28Layer10INNERactive"/>
+<Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
+<Parameter name="PixelROCRows" value="127"/>
+<Parameter name="PixelROCCols" value="1"/>
+<Parameter name="PixelROC_X" value="8"/>
+<Parameter name="PixelROC_Y" value="2"/>
+</SpecPar>
+<SpecPar name="BModule28Layer10OUTERactivePar">
+<PartSelector path="//BModule28Layer10OUTERactive"/>
 <Parameter name="TkDDDStructure" value="PixelBarrelDet"/>
 <Parameter name="PixelROCRows" value="127"/>
 <Parameter name="PixelROCCols" value="1"/>
