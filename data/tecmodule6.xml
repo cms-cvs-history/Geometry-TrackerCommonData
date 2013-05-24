@@ -34,7 +34,7 @@
 		<Constant name="ActiveZ" value="([tecmodpar:ActiveZ2]+[ShiftZ])"/>
 		<Constant name="PitchWidth" value="74.1*mm"/>
 		<Constant name="dPhi" value="2.2*asin(0.5*[TopFrameBotWidth]/([Rin]+[TopFrameHeight]))"/>
-		<Constant name="PosCorrectionR" value="-0.5332*mm"/>
+		<Constant name="PosCorrectionR" value="-1.8632*mm"/>
 	</ConstantsSection>
 	<SolidSection label="tecmodule6.xml">
 		<Tubs name="TECModule6" rMin="[Rin]" rMax="[Rout]" dz="0.5*[tecmodpar:ModuleThickSS]" startPhi="-[dPhi]/2" deltaPhi="[dPhi]"/>
